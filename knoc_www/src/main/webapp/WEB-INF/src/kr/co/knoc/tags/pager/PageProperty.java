@@ -7,6 +7,7 @@ import java.io.Serializable;
  * @version 1.0
  */
 public class PageProperty implements Serializable{
+	application.log("로그테스트55");
     private String num;
 	private String page;
 	private String pageSize;
@@ -77,7 +78,9 @@ public class PageProperty implements Serializable{
 		return this.page;
 	}
 	public void setPage(String page) {
+		
 		if(page == null) {
+			
 			this.nPage = 1;
 			this.page = "1";
 		}

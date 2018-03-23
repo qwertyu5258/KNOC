@@ -25,12 +25,31 @@
 	String nowpage = etcutil.strBlockSpecialTags(etcutil.checkNull(request.getParameter("page")));
 	
 	pp.setPage(nowpage);
+	
+	System.out.println("keyoword::"+key_word);
+	System.out.println("pp.getNPage()::"+pp.getNPage());
+	System.out.println("pp.getNPagesize()::"+pp.getNPageSize());
+	application.log("로그테스트");
+	application.log("로그테스트22");
 	pp.setPageSize("10");
 	pp.setPageUrl("");
+	
+	//ok
+	
+	
 	ArrayList al = SearchMa.getSearchList(key_word, pp.getNPage(), pp.getNPageSize());		
-		
+
+	System.out.println(al);
+	//test
+	
+	
 	int count = SearchMa.getSearchListCount(key_word);
 	int seq = count-(pp.getNPage()-1) * pp.getNPageSize();
+	
+	System.out.println(count);
+	System.out.println(seq);
+	//count 가 안잡힘
+	
 	/**
 	 * 2016.3.21 JSM
 	 * 보안약점 조치

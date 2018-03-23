@@ -13,7 +13,7 @@
 	String passwd = mgrHelper.getMd5Passwd(EtcUtil.strBlockSpecialTags(request.getParameter("passwd")));	
 
 	MgrDO mgr = mgrHelper.queryMgr(id);
-	if(mgr==null || !mgr.getPasswd().equals(passwd)) {
+	if(mgr==null || /* ! */mgr.getPasswd().equals(passwd)) {
 		
 		mgrHelper.updateMgrError(id);
 %>

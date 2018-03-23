@@ -9,7 +9,11 @@ import java.util.ArrayList;
 import kr.co.knoc.jdbc.DBUtil;
 
 public class SearchManager {
+	
 	public ArrayList<SearchBean> getSearchList(String key_word, int page, int pageSize) {
+		
+		System.out.println(key_word+":::"+page+":::"+pageSize);
+		
     	Connection con = null;
  		ResultSet rs = null;
  		PreparedStatement prestmt = null;

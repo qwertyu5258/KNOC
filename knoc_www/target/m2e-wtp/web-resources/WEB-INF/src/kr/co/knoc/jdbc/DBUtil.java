@@ -25,7 +25,7 @@ public class DBUtil {
 		Context envContext = null;
 		 
 		try {
-			System.out.println("정상");
+	//		System.out.println("정상");
 			Context ctx = new InitialContext();	 
 			//ds = (OracleDataSource) ctx.lookup( "jdbc/oracle_knoc" );
 			envContext = (Context)ctx.lookup("java:/comp/env/"); 
