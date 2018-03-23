@@ -1,0 +1,5 @@
+DBPool=
+DBName=knoc?zeroDateTimeBehavior=convertToNull
+DBIp=localhost
+DBUser=knoc_db
+DBPasswd=knoc_mast

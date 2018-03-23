@@ -1,0 +1,101 @@
+@charset "euc-kr"; 
+body.main {background:#f0f0f0;}
+
+div.main > #container{ overflow:hidden; position:relative; width:100%; height:600px; background:url("../../img/bg/main_bg.png") no-repeat 50% 0; }
+div.main > #container > div.main_contents{ position:relative; width:1200px; margin:0 auto; padding-top:10px; }
+
+/* News room */
+div.main > #container > div.main_contents > div.main_board{ position:absolute; top:10px; left:0; width:270px; height:190px; background:url("../../img/bg/main_tab_bg00.png") no-repeat; }
+div.main > #container > div.main_contents > div.main_board.tab{ background-image:url("../../img/bg/main_tab_bg00.png"); }
+div.main > #container > div.main_contents > div.main_board > ul:after{ display:block; clear:both; content:''; }
+div.main > #container > div.main_contents > div.main_board > ul > li{ float:left; }
+
+div.main > #container > div.main_contents > div.main_board > ul > li > p{ display:block; overflow:hidden; width:115px; height:40px; line-height:44px; padding-left:20px; font-size:1em;  font-weight:bold; color:#3c3c3c;}
+div.main > #container > div.main_contents > div.main_board > ul > li > a.btn_more{ display:block; position:absolute; top:0; right:0; width:40px; height:40px; background:url("../../img/ico/ico_more.png") no-repeat 50% 50%; }
+
+div.main > #container > div.main_contents > div.main_board > ul > li > ul{ display:none; position:absolute; top:45px; left:20px; }
+div.main > #container > div.main_contents > div.main_board > ul > li > ul{ display:block; }
+div.main > #container > div.main_contents > div.main_board > ul > li > ul > li{ overflow:hidden; width:160px; line-height:16px; *line-height:22px; padding:13px 70px 0 10px; font-size:1em; background:url("../../img/ico/arrow.png") no-repeat 0 72%; *background-position:0 7px; text-overflow:ellipsis; }
+div.main > #container > div.main_contents > div.main_board > ul > li > ul > li > span.date{position:absolute; right:0;}
+
+/* Domestic/World */
+div.main > #container > div.main_contents > div.main_oil{ position:absolute; top:210px; left:0; width:270px; height:190px; background:url(../../img/bg/main_tab_bg01.png) no-repeat; }
+div.main > #container > div.main_contents > div.main_oil.tab01{ background-image:url(../../img/bg/main_tab_bg01.png); }
+div.main > #container > div.main_contents > div.main_oil.tab02{ background-image:url(../../img/bg/main_tab_bg02.png); }
+div.main > #container > div.main_contents > div.main_oil > ul:after{ display:block; clear:both; content:''; }
+div.main > #container > div.main_contents > div.main_oil > ul > li{ float:left; }
+
+div.main > #container > div.main_contents > div.main_oil > ul > li > a{ display:block; overflow:hidden; width:115px; height:40px; line-height:44px; font-size:1em; color:#6e6e6e; text-align:center; }
+div.main > #container > div.main_contents > div.main_oil > ul > li > div > ul.depth2 > li > div > table td img{ margin-right:7px; vertical-align:middle; }
+div.main > #container > div.main_contents > div.main_oil > ul > li.on > a { font-weight:bold; color:#fff; }
+div.main > #container > div.main_contents > div.main_oil > ul > li > a.btn_more{ display:none; position:absolute; top:0; right:0; width:40px; height:40px; background:url(../../img/ico/ico_more.png) no-repeat 50% 50%; }
+div.main > #container > div.main_contents > div.main_oil > ul > li.on > a.btn_more{display:block;}
+div.main > #container > div.main_contents > div.main_oil > ul > li > div{ display:none; position:absolute; top:40px; left:0; width:230px; padding:10px 20px; }
+div.main > #container > div.main_contents > div.main_oil > ul > li.on > div{ display:block; }
+
+div.main > #container > div.main_contents > div.main_oil > ul > li > div > ul.depth2{ position:relative; zoom:1; }
+div.main > #container > div.main_contents > div.main_oil > ul > li > div > ul.depth2:after{ display:block; clear:both; content:''; }
+div.main > #container > div.main_contents > div.main_oil > ul > li > div > ul.depth2 > li{ float:left; margin-right:1px; }
+div.main > #container > div.main_contents > div.main_oil > ul > li > div > ul.depth2 > li > a{ display:block; width:89px; height:20px; background:url(../../img/bg/oil_2depth_bg.png) no-repeat -90px 0; line-height:22px; color:#fff; text-align:center; text-decoration:none; }
+div.main > #container > div.main_contents > div.main_oil > ul > li > div > ul.depth2 > li.on > a{ background-position:0 0; }
+div.main > #container > div.main_contents > div.main_oil > ul > li > div > ul.depth2 > li > div{ display:none; position:absolute; top:35px; left:0; }
+div.main > #container > div.main_contents > div.main_oil > ul > li > div > ul.depth2 > li.on > div{ display:block; }
+div.main > #container > div.main_contents > div.main_oil > ul > li > div > ul.depth2 > li > div > p{ width:230px; height:20px; margin-bottom:13px; background:url(../../img/bg/oil_2depth_data_bg.png) no-repeat; line-height:22px; text-align:center; }
+div.main > #container > div.main_contents > div.main_oil > ul > li > div > ul.depth2 > li > div > ul > li{ position:relative; height:20px; line-height:22px; }
+div.main > #container > div.main_contents > div.main_oil > ul > li > div > ul.depth2 > li > div > table th{ height:20px; font-weight:bold; color:#3c3c3c; text-align:left; text-decoration:none; }
+div.main > #container > div.main_contents > div.main_oil > ul > li > div > ul.depth2 > li > div > table td{ height:20px; color:#6e6e6e; }
+div.main > #container > div.main_contents > div.main_oil > ul > li > div > ul.depth2 > li > div > table td img{ margin-right:10px; vertical-align:middle; }
+
+/* 메인 비주얼 */
+div.main > #container > div.main_contents > div.main_visual{ overflow:hidden; position:relative; width:620px; height:390px; margin:0 auto 10px; }
+div.main > #container > div.main_contents > div.main_visual > div.fade-control{ position:absolute; right:10px; bottom:15px; z-index:20; zoom:1; }
+div.main > #container > div.main_contents > div.main_visual > div.fade-control:after{ display:block; clear:both; content:''; }
+
+/* E&P Worldwide */
+div.main > #container > div.main_contents > div.main_mining{ position:absolute;  top:10px; right:-36px; width:270px; height:150px; padding:18px; background:url("../../img/bg/main_mining_bg.png") no-repeat; }
+div.main > #container > div.main_contents > div.main_mining h3{ margin-bottom:6px; font-size:1em; color:#3c3c3c; }
+div.main > #container > div.main_contents > div.main_mining select{ width:230px; height:25px; margin-bottom:2px; font-size:11px;}
+
+/* 메인배너01 */
+div.main > #container > div.main_contents > div.main_banner01{ position:absolute; top:150px; right:0; width:270px; height:120px; background:url("../../img/bg/banner03_bg.png") no-repeat 0 0; }
+div.main > #container > div.main_contents > div.main_banner01 > ul{ zoom:1; }
+div.main > #container > div.main_contents > div.main_banner01 > ul:after{ display:block; clear:both; content:''; }
+div.main > #container > div.main_contents > div.main_banner01 > ul > li{ float:left; width:134px; height:60px; }
+div.main > #container > div.main_contents > div.main_banner01 > ul > li > a{ display:block; overflow:hidden; height:30px; padding:28px 0 0; line-height:32px; background:url("../../img/ico/main_ico_01.png") no-repeat 50% 12px; color:#fff; text-align:center; white-space:nowrap; text-overflow:ellipsis; }
+div.main > #container > div.main_contents > div.main_banner01 > ul > li.bg01 > a{ background-image:url("../../img/ico/main_ico_01.png"); }
+div.main > #container > div.main_contents > div.main_banner01 > ul > li.bg02 > a{ background-image:url("../../img/ico/main_ico_02.png"); }
+div.main > #container > div.main_contents > div.main_banner01 > ul > li.bg03 > a{ background-image:url("../../img/ico/main_ico_03.png"); }
+div.main > #container > div.main_contents > div.main_banner01 > ul > li.bg04 > a{ background-image:url("../../img/ico/main_ico_04.png"); }
+
+/* 메인배너02*/
+div.main > #container > div.main_contents > div.main_banner02{ position:absolute; top:280px; right:0; width:270px; height:120px; background:url("../../img/bg/banner04_bg.png") no-repeat 0 0; }
+div.main > #container > div.main_contents > div.main_banner02 > ul{ zoom:1; }
+div.main > #container > div.main_contents > div.main_banner02 > ul:after{ display:block; clear:both; content:''; }
+div.main > #container > div.main_contents > div.main_banner02 > ul > li{ float:left; width:134px; height:60px; }
+div.main > #container > div.main_contents > div.main_banner02 > ul > li > a{ display:block; overflow:hidden; height:30px; padding:39px 0 0; line-height:14px; background:url("../../img/ico/main_ico_01.png") no-repeat 50% 6px; color:#fff; text-align:center; white-space:nowrap; text-overflow:ellipsis; }
+div.main > #container > div.main_contents > div.main_banner02 > ul > li.bg01 > a{ background-image:url("../../img/ico/main_ico_05.png"); }
+div.main > #container > div.main_contents > div.main_banner02 > ul > li.bg02 > a{ background-image:url("../../img/ico/main_ico_06.png"); }
+div.main > #container > div.main_contents > div.main_banner02 > ul > li.bg03 > a{ background-image:url("../../img/ico/main_ico_07.png"); }
+div.main > #container > div.main_contents > div.main_banner02 > ul > li.bg04 > a{ background-image:url("../../img/ico/main_ico_08.png"); }
+
+/* 메인배너03 */
+div.main > #container > div.main_contents > div.main_banner03{ width:1200px; padding-left:10px; }
+div.main > #container > div.main_contents > div.main_banner03 > ul{ zoom:1; }
+div.main > #container > div.main_contents > div.main_banner03 > ul:after{ display:block; clear:both; content:''; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li{ float:left; width:240px; font-size:1em; background:url("../../img/bg/banner05_bg.png") repeat-y 100% 0; text-align:center; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li.img07{ background:none; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li > a{ display:block; height:174px; padding-top:15px; color:#fff; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li > a .img_area{ display:block; width:100px; height:100px; margin:0 auto 10px; background:url("../../img/main/main_img.png") no-repeat 0 0; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li.on > a { background:#e30009; }
+div.main > #container > div.main_contents > div.main_banner03 > ul.hover > li.on > a { background:none; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li > a:hover,.main_banner03 ul li a:focus{ background:#e30009!important; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li.img01 > a > span.img_area{ background-position:0 0; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li.img01 > a:hover .img_area,.div.main > #container > div.main_contents > div.main_banner03 > ul > li.img01 > a:focus > span.img_area{ background-position:0 -100px; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li.img02 > a > span.img_area{ background-position:-100px 0; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li.img02 > a:hover .img_area,.div.main > #container > div.main_contents > div.main_banner03 > ul > li.img02 > a:focus > span.img_area{ background-position:-100px -100px; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li.img03 > a > span.img_area{ background-position:-200px 0; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li.img03 > a:hover .img_area,.div.main > #container > div.main_contents > div.main_banner03 > ul > li.img03 > a:focus > span.img_area{ background-position:-200px -100px; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li.img04 > a > span.img_area{ background-position:-300px 0; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li.img04 > a:hover .img_area,.div.main > #container > div.main_contents > div.main_banner03 > ul > li.img04 > a:focus > span.img_area{ background-position:-300px -100px; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li.img05 > a > span.img_area{ background-position:-400px 0; }
+div.main > #container > div.main_contents > div.main_banner03 > ul > li.img05 > a:hover .img_area,.div.main > #container > div.main_contents > div.main_banner03 > ul > li.img05 > a:focus > span.img_area{ background-position:-400px -100px; }

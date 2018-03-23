@@ -1,0 +1,40 @@
+<html>
+<head><title>KNOC </title>
+<meta http-equiv="Content-Type" Content="text/html; charset=euc-kr">
+<style type="text/css">
+	body{margin:0px; overflow:hidden;}
+</style>
+<script language="javascript" src="common.js"></script>
+<script language="javascript">
+function show_pageno(str){
+	parent.document.showform.pageno.value = str;
+}
+function scrollsize(){
+	aw = document.body.scrollWidth;
+	ah = document.body.scrollHeight;
+
+	if(navigator.appName.indexOf("Microsoft") != -1){
+		cataview(aw, ah, '5', '&ini1var=NNYRFNNLNANNANYNYSYNN&ini2var=NNJYY&frpage=0&pageno=32&showstart=&smwidth=558&smheight=790&bgwidth=1200&bgheight=1696&midwidth=1000&idxwidth=&idxheight=&reimage=&retext=&askin=600|001|004|001|008|002|005|001|001|001&bskin=001|001|001|001|001|001|001|000|001|001&margin=10&bground=color-f5f7f6&titlebar=KNOC&shopcolor=&shopstr=&logopos=&logolink=&slidetime=&bigslidetime=&searchurl=&downfile=&downtext=&logofile=logo.png&encode=EUC-KR&dist1var=10000&distcfg=;;&callmode=&filecheck=NYNNFCNNFN&ext=php&server=aaa.eyebook.kr&ffolder=/make/ebook/knoc','', true);
+	}
+	else{
+		cataviewFireFox(aw, ah, '5', '&ini1var=NNYRFNNLNANNANYNYSYNN&ini2var=NNJYY&frpage=0&pageno=32&showstart=&smwidth=558&smheight=790&bgwidth=1200&bgheight=1696&midwidth=1000&idxwidth=&idxheight=&reimage=&retext=&askin=600|001|004|001|008|002|005|001|001|001&bskin=001|001|001|001|001|001|001|000|001|001&margin=10&bground=color-f5f7f6&titlebar=KNOC&shopcolor=&shopstr=&logopos=&logolink=&slidetime=&bigslidetime=&searchurl=&downfile=&downtext=&logofile=logo.png&encode=EUC-KR&dist1var=10000&distcfg=;;&callmode=&filecheck=NYNNFCNNFN&ext=php&server=aaa.eyebook.kr&ffolder=/make/ebook/knoc','', true);
+	}
+	document.all["cataSwf"].focus();
+}
+function getSize(){
+	var aw = document.body.clientWidth;
+	var ah = document.body.clientHeight;
+
+	document.all["cataSwf"].screenResize(aw, ah);
+}
+window.onresize = getSize;
+</script>
+</head>
+
+<body onload="scrollsize();">
+<div id="divflash" style="position:absolute;left:0;top:0;visibility:visible;z-index:1"></div>
+<table border="0" width="100%" height="100%">
+	<tr><td width="100%">&nbsp;</td></tr>
+</table>
+</body>
+</html>

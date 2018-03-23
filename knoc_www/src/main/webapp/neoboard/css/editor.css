@@ -1,0 +1,7 @@
+	TD.None { }
+	TD.ButtonNormal { BORDER-RIGHT: 1px; BORDER-TOP: 1px; FONT-SIZE: 10pt; BORDER-LEFT: 1px; BORDER-BOTTOM: 1px; FONT-FAMILY: MS Sans Serif,±¼¸² }
+	TD.ButtonOver { border-top: 1 #000080; border-left: 1 #000080; border-right: 1 #000080; border-bottom: 1 #000080; background-image: url( /images/editor/toolbarbutton.over.gif); font-family: MS Sans Serif,±¼¸²; font-size: 10pt; }
+	TD.ButtonDown { border-top: 1 #000080; border-left: 1 #000080; border-right: 1 #000080; border-bottom: 1 #000080; background-image: url( /images/editor/toolbarbutton.down.gif); font-family: MS Sans Serif,±¼¸²; font-size: 10pt; }
+	DIV.Toolbar { FLOAT: left; BACKGROUND-IMAGE: url(/images/editor/toolbar.background.gif); MARGIN-BOTTOM: 1px; MARGIN-RIGHT: 2px }
+	IFRAME.iframe { BORDER-RIGHT: transparent 1px solid; BORDER-TOP: transparent 1px solid; BORDER-LEFT: transparent 1px solid; WIDTH: 99%; BORDER-BOTTOM: transparent 1px solid; HEIGHT: 100%; frameBorder: 0 }
+	SELECT.Select { FONT: 8pt Arial }

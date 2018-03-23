@@ -1,0 +1,26 @@
+@charset "euc-kr";
+
+
+/* body------------------------------ */
+	body {
+	margin-left:0px;
+	margin-top:0;
+    font-family: Arial;
+    font-size: 9pt;
+    color:#666;
+    line-height:150%;
+	text-align:left;
+	
+     }
+		
+		
+/* ¸µÅ©------------------------------ */
+
+	A:link {TEXT-DECORATION: none; color:#666666;}
+	A:active {COLOR:#0370c6; text-decoration:underline  }
+	A:visited {COLOR:#4b4b4b; TEXT-DECORATION: none;}
+	A:hover {COLOR:#DD0000; text-decoration:underline}
+	
+	.title_text { color:#e05003; font-weight:bold }
+	.table_titlebottom { border-bottom:#f3a291 solid 1px }
+	.table_bottom { border-bottom:#CCCCCC solid 1px }

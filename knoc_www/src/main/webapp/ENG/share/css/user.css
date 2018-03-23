@@ -1,0 +1,21 @@
+@charset "euc-kr";
+@import url("./default.css");
+
+/* web font
+@import url("../webfont/nanumgothic.css");
+ */
+
+a{color:#6d6d6d}
+a:link,a:visited{text-decoration:none}
+a:hover,a:focus,a:active{color:#000;text-decoration:underline}
+i{font-style:normal}
+.hidden{visibility:hidden;position:absolute;width:0;height:0;margin:0;padding:0;background:none;font-size:0;line-height:0}
+.clear{clear:both}
+button{display:inline-block;*overflow:visible;padding:0;border:0;background:transparent;cursor:pointer;*zoom:1}
+button::-moz-focus-inner{padding:0;border:0}
+
+ul#skipToContent li{position:absolute;top:0;left:0;z-index:10000;width:100%}
+ul#skipToContent li a{display:block;position:absolute;top:-10000px;left:0;z-index:10000;width:100%;font-size:0;text-align:center}
+ul#skipToContent li a:focus,ul#skipToContent li a:active{top:0;width:100%;background-color:#fff;font-size:12px}
+
+#skipToContent a:focus,#skipToContent a:active{width:auto;height:auto;margin-bottom:10px;padding:5px}

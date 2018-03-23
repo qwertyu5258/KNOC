@@ -1,0 +1,27 @@
+@charset "euc-kr";
+
+/*ie6Àü¿ë*/
+
+table { border-collapse:collapse; border-spacing:0; margin:0; padding:0; border:0; }
+
+table.chart1{ border-collapse:collapse; }
+table.chart2{ border-collapse:collapse; }
+table.chart3{ border-collapse:collapse; }
+
+#topnavi .fontdv {float:left; text-align:right;  margin:2px 0px 0px 4px;width:75px; height:17px; line-height:1px; padding:3px 6px 0px 0px; background:url('/images/common/tbtn_font.gif') no-repeat left top;}
+
+.continental2 table {width:680px; margin:10px 0px 0px 10px; float:left;}
+.continental2 h5 {font-size:1.0em; text-align:left; clear:both; padding:0px 0px 0px 20px; margin-top:20px; background:url('/images/directors/icon01.gif') no-repeat 5px 4px;}
+
+.mdiv2 .table1dv, .table2dv {float:left;width:217px;}
+.mdiv2 .tlep {text-align:left; float:left; width:50px;}
+.mdiv2 .tabdv {width:209px; clear:both; padding:0px; overflow:hidden;}	
+.mdiv2 .stabul_1 li {float:left; padding-right:2px; margin-bottom:5px;}
+.mdiv2 .stabul {height:14px; margin-bottom:5px;}
+.mdiv2 .stabul li {float:left; padding-right:2px;}
+.mdiv2 .stabul li div {height:14px; margin:0px; padding:0px;}
+.mdiv2 .stabul li img {vertical-align:middle; border:none;}
+.mdiv2 .clr4t {clear:both; height:4px;}
+
+.mdiv2 .price #taboil ul li div table {behavior:url(../images/main/iepngfix.htc); background:url('/images/main/m1tbbg.png') repeat-y left top;}
+.mdiv2 .price #taboil2 ul li div table {behavior:url(../images/main/iepngfix.htc); background:url('/images/main/m2tbbg.png') repeat-y left top;}

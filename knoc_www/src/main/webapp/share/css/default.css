@@ -1,0 +1,65 @@
+@charset "euc-kr";
+
+/*
+* ÀÛ¼ºÀÚ : ¸¶¿ë¹Î(milgam12@inplusweb.com)
+* ÀÛ¼ºÀÏ : 2013³â 4¿ù 4ÀÏ
+*/
+
+/* reset */
+html{ font-size:100%; overflow-y:scroll; }
+body{ font-size:75%; font-family:'µ¸¿ò',dotum,Helvetica,sans-serif; color:#606060; line-height:1.5em;}
+
+a, abbr, acronym, address, applet, article, aside, audio,
+b, blockquote, big, body,
+center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt, 
+em, embed,
+fieldset, figcaption, figure, font, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, html,
+i, iframe, img, ins,
+kbd, 
+keygen,
+label, legend, li, 
+meter,
+nav, menu,
+object, ol, output,
+p, pre, progress,
+q, 
+s, samp, section, small, span, source, strike, strong, sub, sup,
+table, tbody, td, tfoot, thead, th, tr, td, video, tt,
+u, ul, 
+var { margin:0; padding:0; border:0; }
+
+/* link */
+a {color:#6d6d6d; }
+a:link, a:visited{ text-decoration:none;}
+a:hover, a:focus, a:active{ text-decoration:none;}
+
+/* font */
+h1, h2, h3, h4, h5, h6, th, td, table, input, button, select, textarea{ font-size:1em; }
+body, input, button, select, textarea, sub{ font-family:'µ¸¿ò',dotum,Helvetica,sans-serif; }
+em, cite, address, optgroup { font-style:normal; }
+kbd, samp, code { font-family:monospace; }
+
+/* display */
+article, aside, audio, canvas, code, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video { display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline;}
+button, img, input, label, select, textarea{ vertical-align:middle;}
+
+/* hidden */
+hr { display:none; }
+legend, caption { visibility:hidden; font-size:0; width:0; height:0; line-height:0; margin:0; padding:0; overflow:hidden; background:none; }
+ul, ol{ list-style:none; }
+
+/* form */
+button, label { cursor:pointer; }
+button, input { border-radius:0; font-family:'µ¸¿ò',dotum,Helvetica,sans-serif; font-size:1em; }
+
+/* table */
+table {	width:100%; border-spacing:0; table-layout:fixed; }
+*table { border-collapse:collapse; }
+
+/* etc */
+abbr, acronym{ border-bottom:1px dotted black; cursor:help; }
+p { word-break:break-all; }
+pre { overflow-x:scroll;font-size:1.1em; }

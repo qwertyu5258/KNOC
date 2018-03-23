@@ -1,0 +1,192 @@
+@charset "euc-kr"; 
+.main #container{ overflow:hidden; position:relative; width:100%; height:885px; background:url(../../img/bg/main_bg.png) no-repeat 50% 0; }
+.main #container .main_contents{ position:relative; width:1200px; margin:0 auto; padding-top:10px; }
+
+/* 보도자료/입찰정보 */
+.main_board{ position:absolute; top:10px; left:0; width:270px; height:190px; background:url(../../img/bg/main_tab_bg01.png) no-repeat; }
+.main_board.tab01{ background-image:url(../../img/bg/main_tab_bg01.png); }
+.main_board.tab02{ background-image:url(../../img/bg/main_tab_bg02.png); }
+.main_board>ul:after{ display:block; clear:both; content:''; }
+.main_board>ul>li{ float:left; }
+
+.main_board>ul>li>button{ display:block; overflow:hidden; width:115px; height:40px; line-height:44px; font-size:1em; color:#6e6e6e; }
+.main_board>ul>li.on>button{ font-weight:bold; color:#fff; }
+.main_board>ul>li .btn_more{ display:none; position:absolute; top:0; right:0; width:40px; height:40px;  background:url("/img/ico/ico_arrow_knoc.png") no-repeat -200px 0; }
+.main_board>ul>li.on .btn_more{display:block;}
+
+.main_board>ul>li>ul{ display:none; position:absolute; top:55px; left:20px; }
+.main_board>ul>li.on>ul{ display:block; }
+.main_board>ul>li>ul>li{ overflow:hidden; width:225px; height:32px; padding-left:10px; background:url(../../img/ico/arrow.png) no-repeat 0 5px; line-height:16px; font-size:1em; margin-top:10px}
+.main_board>ul>li>ul>li:first-child{margin-top:0;}
+
+/* 국내유가/국제유가 */
+.main_oil{ position:absolute; top:210px; left:0; width:270px; height:190px; background:url(../../img/bg/main_tab_bg01.png) no-repeat; }
+.main_oil.tab01{ background-image:url(../../img/bg/main_tab_bg01.png); }
+.main_oil.tab02{ background-image:url(../../img/bg/main_tab_bg02.png); }
+.main_oil>ul:after{ display:block; clear:both; content:''; }
+.main_oil>ul>li{ float:left; }
+
+.main_oil>ul>li>button{ display:block; overflow:hidden; width:115px; height:40px; line-height:44px; font-size:1em; color:#6e6e6e; }
+.main_oil>ul>li.on>button{ font-weight:bold; color:#fff; }
+.main_oil>ul>li .btn_more{ display:none; position:absolute; top:0; right:0; width:40px; height:40px; background:url("/img/ico/ico_arrow_knoc.png") no-repeat -200px 0; }
+.main_oil>ul>li.on .btn_more{display:block;}
+.main_oil>ul>li>div{ display:none; position:absolute; top:40px; left:0; width:230px; padding:10px 20px; }
+.main_oil>ul>li.on>div{ display:block; }
+
+.main_oil .depth2{ position:relative; zoom:1; }
+.main_oil .depth2:after{ display:block; clear:both; content:''; }
+.main_oil .depth2>li{ float:left; margin-right:1px; }
+.main_oil .depth2>li>a{ display:block; width:89px; height:20px; background:url(../../img/bg/oil_2depth_bg.png) no-repeat -90px 0; line-height:22px; color:#fff; text-align:center; text-decoration:none; }
+.main_oil .depth2>li.on>a{ background-position:0 0; }
+.main_oil .depth2>li>div{ display:none; position:absolute; top:35px; left:0; }
+.main_oil .depth2>li.on>div{ display:block; }
+.main_oil .depth2>li>div>p{ width:230px; height:20px; margin-bottom:13px; background:url(../../img/bg/oil_2depth_data_bg.png) no-repeat; line-height:22px; text-align:center; }
+.main_oil .depth2>li>div>ul>li{ position:relative; height:20px; line-height:22px; }
+.main_oil .depth2>li>div table th{ height:20px; font-weight:bold; color:#3c3c3c; text-align:left; text-decoration:none; }
+.main_oil .depth2>li>div table td{ height:20px; color:#6e6e6e; }
+.main_oil .depth2>li>div table td img{ margin-right:10px; vertical-align:middle; }
+.main_oil .depth2>li>div table td div {display:inline-block; width:7px; height:4px;margin-right:10px; vertical-align:middle; background:url("/img/ico/ico_arrow_knoc.png") no-repeat; }
+.main_oil .depth2>li>div table td div.oil_up {background-position: -130px -7px; }
+.main_oil .depth2>li>div table td div.oil_down {background-position: -30px -7px; }
+
+/*.main_oil .depth2>li>div table td div.oil_up img{ margin-right:10px; vertical-align:middle; } */
+
+
+/* 해외광구도 */
+.main_mining{ position:absolute; top:410px; left:0; width:234px; height:54px; padding:18px; background:url(../../img/bg/main_mining_bg.png) no-repeat; }
+.main_mining h3{ margin-bottom:6px; font-size:1em; color:#3c3c3c; }
+.main_mining select{ width:209px; height:25px; font-size:11px; vertical-align:middle; }
+.main_mining a.btn_go_link {display:inline-block; width:25px; height:25px; background:url("/img/btn/btn_sprites_knoc.png") no-repeat -100px -200px; vertical-align:middle;}
+
+/* 메인 비주얼 */
+.main_visual{ overflow:hidden; position:relative; width:620px; height:490px; margin:0 auto 10px; }
+.main_visual .fade-visual { position:relative; width:620px; height:490px; }
+.main_visual .fade-control{ position:absolute; right:10px; bottom:15px; z-index:20; zoom:1; }
+.main_visual .fade-control:after{ display:block; clear:both; content:''; }
+.main_visual .fade-control button{ display:inline-block; float:left; width:20px; height:20px; background:url(../../img/btn/btn_control.png) no-repeat 0 0; }
+.main_visual .fade-control p{ display:inline-block; float:left; height:18px; padding:0 7px; border:1px solid #b4b4b4; border-left:0; background:#fff; line-height:20px; font-size:11px; color:#6e6e6e; }
+.main_visual .fade-control p .cur_num{ font-weight:bold; color:#e30009; }
+.main_visual .fade-control button.fade-prev{ background-position:0 0; }
+.main_visual .fade-control button.fade-resume{ background-position:-20px 0; }
+.main_visual .fade-control button.fade-pause{ background-position:-40px 0; }
+.main_visual .fade-control button.fade-next{ background-position:-60px 0; }
+.main_visual .fade-control button.fade-hidden{display:none}
+/*
+.main_visual{ overflow:hidden; position:relative; width:620px; height:490px; margin:0 auto 10px; }
+.main_visual>div{ width:620px; height:490px; }
+.main_visual>div>ul>li>img{ width:620px; height:490px; }
+.main_visual .roll_control{ position:absolute; right:10px; bottom:15px; z-index:20; zoom:1; }
+.main_visual .roll_control:after{ display:block; clear:both; content:''; }
+.main_visual .roll_control button{ display:inline-block; float:left; width:20px; height:20px; background:url(../../img/btn/btn_control.png) no-repeat 0 0; }
+.main_visual .roll_control p{ display:inline-block; float:left; height:18px; padding:0 7px; border:1px solid #b4b4b4; border-left:0; background:#fff; line-height:20px; font-size:11px; color:#6e6e6e; }
+.main_visual .roll_control p .cur_num{ font-weight:bold; color:#e30009; }
+.main_visual .roll_control button.visual_prev{ background-position:0 0; }
+.main_visual .roll_control button.visual_play{ background-position:-20px 0; }
+.main_visual .roll_control button.visual_pause{ background-position:-40px 0; }
+.main_visual .roll_control button.visual_next{ background-position:-60px 0; }
+*/
+
+/* 메인배너01 */
+.main_banner01{ position:absolute; top:10px; right:0; }
+
+/* 메인배너02 */
+.main_banner02{ position:absolute; top:90px; right:0; }
+
+/* 메인배너03 */
+.main_banner03{ position:absolute; top:190px; right:0; width:270px; height:130px; background:url(../../img/bg/banner03_bg.png) no-repeat 0 0; }
+.main_banner03 ul{ zoom:1; }
+.main_banner03 ul:after{ display:block; clear:both; content:''; }
+.main_banner03 ul li{ float:left; width:90px; height:65px; }
+.main_banner03 ul li a{ display:block; overflow:hidden; overflow:hidden; height:30px; padding:35px 0 0; background:url("/img/ico/ico_mainbanner03.png") no-repeat 0 0; line-height:32px; color:#fff; text-align:center; white-space:nowrap; text-overflow:ellipsis; }
+.main_banner03 ul li.bg01 a{ background-position:0 0; }
+.main_banner03 ul li.bg02 a{ background-position:-100px 0; }
+.main_banner03 ul li.bg03 a{ background-position:-200px 0; }
+.main_banner03 ul li.bg04 a{ background-position:0 -100px; }
+.main_banner03 ul li.bg05 a{ background-position:-100px -100px; }
+.main_banner03 ul li.none{ background:url("/img/ico/ico_mainbanner03.png") no-repeat -200px -100px;}
+
+/* 메인배너04 */
+.main_banner04{ overflow:hidden; position:absolute; top:330px; right:0; width:270px; height:170px; background:url(../../img/bg/banner04_bg.png) no-repeat 0 0; }
+.main_banner04 h3{ height:40px; margin:0; padding-left:20px; font-size:1em; line-height:44px; color:#3c3c3c; }
+.main_banner04>div.main_banner04_area{ overflow:hidden; position:relative; top:1px!important; left:1px !important; width:268px !important; height:128px; }
+.main_banner04>div.main_banner04_area>ul { height:128px; }
+.main_banner04>div.main_banner04_area>ul>li { width:268px; height:128px; }
+.main_banner04>div.main_banner04_area>ul>li img{ width:268px; height:128px; }
+.main_banner04 .roll_control{ position:absolute; top:10px; right:10px; z-index:20; zoom:1; }
+.main_banner04 .roll_control:after{ display:block; clear:both; content:''; }
+.main_banner04 .roll_control button{ display:inline-block; float:left; width:20px; height:20px; background:url("/img/btn/btn_sprites_knoc.png") no-repeat 0 0; }
+.main_banner04 .roll_control p{ display:inline-block; float:left; height:18px; padding:0 7px; border:1px solid #b4b4b4; border-left:0; background:#fff; line-height:20px; font-size:11px; color:#6e6e6e; }
+.main_banner04 .roll_control p .cur_num{ font-weight:bold; color:#e30009; }
+.main_banner04 .roll_control button.banner_prev{ background-position:-100px 0; }
+.main_banner04 .roll_control button.banner_play{ background-position:-160px 0; }
+.main_banner04 .roll_control button.banner_pause{ background-position:-140px 0; }
+.main_banner04 .roll_control button.banner_next{ background-position:-120px 0; }
+/*.main_banner04 .bg_popupzone { position:absolute; bottom:0; left:0; z-index:100; width:270px; height:128px; background:url("../../img/main/bg_popupzone.png") 0 0 no-repeat; }*/
+.main_banner04 .bg_popupzone { display:none; }
+
+
+
+/* 메인배너05 */
+.main_banner05{ width:1190px; padding-left:10px; }
+.main_banner05 ul{ zoom:1; }
+.main_banner05 ul:after{ display:block; clear:both; content:''; }
+.main_banner05 ul li{ float:left; width:170px; background:url(../../img/bg/banner05_bg.png) repeat-y 100% 0; font-size:1em; text-align:center; }
+.main_banner05 ul li.img07{ background:none; }
+.main_banner05 ul li a{ display:block; height:160px; padding-top:15px; color:#fff; }
+.main_banner05 ul li a .img_area{ display:block; width:100px; height:100px; margin:0 auto 15px; background:url(../../img/main/main_img.png) no-repeat 0 0; }
+.main_banner05 ul li a:hover,.main_banner05 ul li a:focus{ background:#e30009; }
+.main_banner05 ul li.img01 a .img_area{ background-position:0 0; }
+.main_banner05 ul li.img01 a:hover .img_area,.main_banner05 ul li.img01 a:focus .img_area{ background-position:0 -100px; }
+.main_banner05 ul li.on a { background:#e30009; }
+/*
+.main_banner05 ul li.img02 a { background:#e30009; }
+*/
+.main_banner05 ul li.img02 a .img_area{ background-position:-100px 0; }
+.main_banner05 ul li.img02 a:hover .img_area,.main_banner05 ul li.img02 a:focus .img_area{ background-position:-100px -100px; }
+.main_banner05 ul li.img03 a .img_area{ background-position:-200px 0; }
+.main_banner05 ul li.img03 a:hover .img_area,.main_banner05 ul li.img03 a:focus .img_area{ background-position:-200px -100px; }
+.main_banner05 ul li.img04 a .img_area{ background-position:-300px 0; }
+.main_banner05 ul li.img04 a:hover .img_area,.main_banner05 ul li.img04 a:focus .img_area{ background-position:-300px -100px; }
+.main_banner05 ul li.img05 a .img_area{ background-position:-400px 0; }
+.main_banner05 ul li.img05 a:hover .img_area,.main_banner05 ul li.img05 a:focus .img_area{ background-position:-400px -100px; }
+.main_banner05 ul li.img06 a .img_area{ background-position:-500px 0; }
+.main_banner05 ul li.img06 a:hover .img_area,.main_banner05 ul li.img06 a:focus .img_area{ background-position:-500px -100px; }
+.main_banner05 ul li.img07 a .img_area{ background-position:-600px 0; }
+.main_banner05 ul li.img07 a:hover .img_area,.main_banner05 ul li.img07 a:focus .img_area{ background-position:-600px -100px; }
+
+/* 메인배너06 */
+.main_banner06{ width:1190px; padding-left:10px; }
+.main_banner06 ul{ zoom:1; }
+.main_banner06 ul:after{ display:block; clear:both; content:''; }
+.main_banner06 ul li{ float:left; width:170px; height:99px; }
+.main_banner06 ul li a{ display:block; height:40px; padding-top:59px; border-right:1px solid #e6e6e6; background:url("/img/ico/ico_mainbanner06.png") no-repeat 0 0; font-size:1em; line-height:44px; text-align:center; }
+.main_banner06 ul li.bg01 a{background-position:0 0; }
+.main_banner06 ul li.bg02 a{ background-position:-170px 0; }
+.main_banner06 ul li.bg03 a{ background-position:-340px 0; }
+.main_banner06 ul li.bg04 a{ background-position:-510px 0; }
+.main_banner06 ul li.bg05 a{ background-position:-680px 0; }
+.main_banner06 ul li.bg06 a{ background-position:-850px 0;}
+.main_banner06 ul li.bg07 a{ background-position:-1020px 0; }
+.main_banner06 ul li.bg08 a{ background-position:-170px -100px; }
+.main_banner06 ul li.bg09 a{ background-position:-340px -100px;}
+.main_banner06 ul li.bg10 a{ background-position:-510px -100px;}
+.main_banner06 ul li.bg11 a{ background-position:-680px -100px;}
+.main_banner06 ul li.bg12 a{ background-position:-1020px -100px; }
+.main_banner06 ul li.bg13 a{ background-position:-850px -100px; }
+.main_banner06 ul li.none { background:url("/img/ico/ico_mainbanner06.png") no-repeat -1020px -100px;  }
+
+/*.main_banner06 ul li a:hover,.main_banner06 ul li a:focus{ background-color:#f0f0f0; } */
+
+.main_banner06 ul li.bg01 a:hover, .main_banner06 ul li.bg01 a:focus, .main_banner06 ul li.bg01 a:active {background-position:0 -200px; }
+.main_banner06 ul li.bg02 a:hover, .main_banner06 ul li.bg02 a:focus, .main_banner06 ul li.bg02 a:active { background-position:-170px -200px; }
+.main_banner06 ul li.bg03 a:hover, .main_banner06 ul li.bg03 a:focus, .main_banner06 ul li.bg03 a:active { background-position:-340px -200px; }
+.main_banner06 ul li.bg04 a:hover, .main_banner06 ul li.bg04 a:focus, .main_banner06 ul li.bg04 a:active { background-position:-510px -200px; }
+.main_banner06 ul li.bg05 a:hover, .main_banner06 ul li.bg05 a:focus, .main_banner06 ul li.bg05 a:active { background-position:-680px -200px; }
+.main_banner06 ul li.bg06 a:hover, .main_banner06 ul li.bg06 a:focus, .main_banner06 ul li.bg06 a:active { background-position:-850px -200px;}
+.main_banner06 ul li.bg07 a:hover, .main_banner06 ul li.bg07 a:focus, .main_banner06 ul li.bg07 a:active { background-position:-1020px -200px; }
+.main_banner06 ul li.bg08 a:hover, .main_banner06 ul li.bg08 a:focus, .main_banner06 ul li.bg08 a:active { background-position:-170px -300px; }
+.main_banner06 ul li.bg09 a:hover, .main_banner06 ul li.bg09 a:focus, .main_banner06 ul li.bg09 a:active { background-position:-340px -300px;}
+.main_banner06 ul li.bg10 a:hover, .main_banner06 ul li.bg10 a:focus, .main_banner06 ul li.bg10 a:active { background-position:-510px -300px;}
+.main_banner06 ul li.bg11 a:hover, .main_banner06 ul li.bg11 a:focus, .main_banner06 ul li.bg11 a:active{ background-position:-680px -300px;}
+.main_banner06 ul li.bg12 a:hover, .main_banner06 ul li.bg12 a:focus, .main_banner06 ul li.bg12 a:active{ background-position:-1020px -300px; }
+.main_banner06 ul li.bg13 a:hover, .main_banner06 ul li.bg13 a:focus, .main_banner06 ul li.bg13 a:active{ background-position:-850px -300px; }

@@ -1,0 +1,35 @@
+/* CSS Document */
+
+
+/* body------------------------------ */
+	body {
+	margin-left:0px;
+	margin-top:0;
+    font-family: Arial;
+    font-size: 9pt;
+    color:#666;
+    line-height:130%;
+	text-align:left;
+	
+     }
+		
+		
+/* 링크------------------------------ */
+
+	.board_titletop {border-top:#e96f03 solid 2px; border-bottom:#CCCCCC solid 1px; font-weight:bold;}	
+	.board_titletop2 {border-top:#e96f03 solid 2px; border-bottom:#CCCCCC solid 1px; }	
+	.board_titletop3 {border-bottom:#CCCCCC solid 1px; font-weight:bold; }	
+	
+	.board_listbott {border-bottom:#CCCCCC solid 1px;}
+	
+	.board_pretitle {border-top:#CCCCCC solid 1px; border-bottom:#CCCCCC solid 1px; font-weight:bold;}	
+	.board_pretitle2 {border-bottom:#CCCCCC solid 1px; font-weight:bold;}
+	.board_pretitle3 {border-top:#CCCCCC solid 1px; border-bottom:#CCCCCC solid 1px; border-left:#CCCCCC solid 1px;}
+	.board_pretitle4 {border-bottom:#CCCCCC solid 1px; border-left:#CCCCCC solid 1px;}		
+	
+	.img {padding-bottom:3px; }
+	.img2 {padding-bottom:4px; }
+	
+	.textfield {border:#CCCCCC solid 1px; height:15px; background:#FFFFFF;}
+	.textfield2 {border:#CCCCCC solid 1px; background:#FFFFFF;}
+	.select {border:#CCCCCC solid 1px;height:15px; background:#FFFFFF;}

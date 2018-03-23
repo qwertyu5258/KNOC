@@ -1,0 +1,112 @@
+@charset "euc-kr"; 
+body{ font-size:75%; }
+/* body table {width:1000px; min-height:610px; margin:0 auto 80px;} */
+body > #container > table {width:1000px; min-height:610px; margin:0 auto 80px;} 
+
+.font_size1{ font-size:75%; }
+.font_size2{ font-size:81.25%; }
+.font_size3{ font-size:87.5%; }
+.font_size4{ font-size:93.75%; }
+.font_size5{ font-size:100%; }
+
+
+#wrap{ overflow:hidden; position:relative; width:100%; }
+#header{ position:relative; z-index:20; width:100%; height:160px; background:url("../../img/bg/header_bg.png") repeat-x 0 0; }
+
+/* top_area */
+#header > div.top_area{ position:relative; width:1000px; height:22px; margin:0 auto; padding:3px 0 5px; }
+#header > div.top_area > ul.top_util{ zoom:1; }
+#header > div.top_area > ul.top_util:after{ display:block; clear:both; content:''; }
+#header > div.top_area > ul.top_util > li{ float:left; margin-right:5px; }
+#header > div.top_area > ul.top_util > li > div.font_size{ width:40px; height:13px; padding:5px 0 4px 61px; background:url("../../img/bg/fs_bg.png") no-repeat 0 0; }
+#header > div.top_area > ul.top_util > li > div.font_size button{ *position:relative; *top:-2px; width:13px; height:13px; background:url("../../img/btn/btn_zoom_in.png") no-repeat; vertical-align:top; }
+#header > div.top_area > ul.top_util > li > div.font_size button.zoom_in{ *margin-right:5px; background-image:url("../../img/btn/btn_zoom_in.png"); }
+#header > div.top_area > ul.top_util > li > div.font_size button.zoom_out{ background-image:url("../../img/btn/btn_zoom_out.png"); }
+#header > div.top_area > ul.top_util > li > button.btn_print{ width:40px; height:22px; background:url("../../img/btn/btn_print.png") no-repeat 0 0; }
+
+#header > div.top_area > p.top_quick_menu{ position:absolute; top:9px; right:143px; line-height:13px; font-size:11px;}
+#header > div.top_area > p.top_quick_menu > a{ color:#6e6e6e; }
+#header > div.top_area > p.top_quick_menu > span.arrow{ display:inline-block; padding:0 4px; color:#c9c9c9; }
+
+#header > div.top_area > div.language{ position:absolute; top:5px; right:0; }
+#header > div.top_area > div.language select{ font-size:12px; }
+
+/* core_area */
+#header > div.core_area{ position:relative; width:1000px; height:80px; margin:0 auto; }
+#header > div.core_area h1{ padding:17px 0 0; }
+#header > div.core_area > div.search_area{ position:absolute; top:20px; left:363px; width:220px; height:40px; padding-left:85px; background:url("../../img/bg/search_bg.png"); }
+#header > div.core_area > div.search_area .search_input{ width:160px; height:20px; padding:11px 0 9px; border:0; color:#666; background: none; }
+#header > div.core_area > div.search_area .btn_search{ position:absolute; top:1px; right:1px; }
+
+/* gnb */
+#header > #gnb{ position:relative; }
+#header > #gnb > ul{ position:relative; z-index:10; width:1000px; margin:0 auto; zoom:1; }
+#header > #gnb > ul:after{ display:block; clear:both; content:''; }
+#header > #gnb > ul > li{ float:left; height:50px; }
+#header > #gnb > ul > li > a{ display:block; height:50px; background:url("../../img/common/gnb.png") no-repeat 0 0; }
+
+#header > #gnb > ul > li.gnb01 { width:200px; }
+#header > #gnb > ul > li.gnb01 > a{width:100%; background-position:0 0;}
+#header > #gnb > ul > li.gnb01.hover > a{ background-position:0 -50px; }
+
+#header > #gnb > ul > li.gnb02 { width:200px; }
+#header > #gnb > ul > li.gnb02 > a { width:100%; background-position:-200px 0; }
+#header > #gnb > ul > li.gnb02.hover > a{ background-position:-200px -50px; }
+
+#header > #gnb > ul > li.gnb03 { width:200px; }
+#header > #gnb > ul > li.gnb03 > a { width:100%; background-position:-400px 0;}
+#header > #gnb > ul > li.gnb03.hover > a { background-position:-400px -50px; }
+
+#header > #gnb > ul > li.gnb04 { width:200px; }
+#header > #gnb > ul > li.gnb04 > a { width:100%; background-position:-600px 0;}
+#header > #gnb > ul > li.gnb04.hover > a { background-position:-600px -50px; }
+
+#header > #gnb > ul > li.gnb05 { width:200px; }
+#header > #gnb > ul > li.gnb05 > a { width:100%; background-position:-800px 0;}
+#header > #gnb > ul > li.gnb05.hover > a { background-position:-800px -50px; }
+/*
+#header > #gnb > ul > li.gnb06 { width:200px; }
+#header > #gnb > ul > li.gnb06 > a { width:100%; background-position:-805px 0;}
+#header > #gnb > ul > li.gnb06.hover > a { background-position:-805px -50px; }
+*/
+#header > #gnb > ul > li > ul{ display:none; overflow:hidden; height:240px; padding:20px 10px;}
+#header > #gnb.open > ul > li > ul{ display:block; }
+#header > #gnb > ul > li.hover > ul{ background:#e6e6e6;}
+#header > #gnb > ul > li > ul > li{ width:100%; line-height:16px; margin-bottom:10px; font-size:11px;}
+#header > #gnb > ul > li > ul > li a{ color:#6e6e6e; }
+#header > #gnb > ul > li > ul > li a:hover,#header > #gnb > ul > li > ul > li a:focus{ color:#3c3c3c; }
+#header > #gnb .bg{ display:none; position:absolute; top:50px; left:0; width:100%; height:280px; border-bottom:1px solid #505050; background:#fff url("../../img/bg/gnb_bg.png") no-repeat 50% 0; }
+#header > #gnb.open .bg{ display:block; }
+#header > #gnb .btn_gnb_close{ display:none; position:absolute; top:275px; left:50%; width:70px; height:30px; margin-left:530px; background:url("../../img/btn/btn_close.png") no-repeat; }
+#header > #gnb.open .btn_gnb_close{ display:block; }
+
+/* footer */
+/*
+#footer{ width:100%; height:190px; background:url("../../img/bg/footer_bg.png") repeat-x 0 100%; }
+#footer > div.footer_banner{ position:relative; width:904px; height:34px; margin:0 auto; padding:18px 48px; }
+#footer > div.footer_banner > div.footer_banner_area{ overflow:hidden; width:904px !important; height:34px !important; }
+#footer > div.footer_banner > div.footer_banner_area > ul > li{ width:112px; margin-right:20px; }
+#footer > div.footer_banner > div.roll_control > button.footer_banner_prev{ display:block; position:absolute; top:14px; left:0; width:17px; height:33px; background:url("../../img/btn/btn_banner_prev.png"); }
+#footer > div.footer_banner > div.roll_control > button.footer_banner_next{ display:block; position:absolute; top:14px; right:0; width:17px; height:33px; background:url("../../img/btn/btn_banner_next.png"); }
+#footer > div.footer_wrap {position:relative; width:870px; height:94px; margin:0 auto; padding:39px 0 0 130px; background:url("../../img/common/footer_logo.png") no-repeat 0 26px; }
+#footer > div.footer_wrap > p.addr{ line-height:14px; margin-bottom:5px; font-size:12px; color:#6e6e6e; }
+#footer > div.footer_wrap > p.addr > span.tel{ color:#3c3c3c; }
+#footer > div.footer_wrap > p.addr > span.arrow{ padding:0 8px; color:#c8c8c8; }
+#footer > div.footer_wrap > p.copy{line-height:13px; font-size:11px; color:#969696; }
+#footer > div.footer_wrap > div.qr{ position:absolute; top:20px; right:20px; }
+*/
+
+#footer{ width:100%; height:120px; background:#f0f0f0; }
+
+#footer > div.footer_wrap {position:relative; width:870px; height:70px; margin:0 auto; padding:39px 0 0 220px; background:url("../../img/common/footer_logo.png") no-repeat 92px 26px; }
+#footer > div.footer_wrap > p.addr{ line-height:14px; margin-bottom:5px; font-size:12px; color:#6e6e6e; }
+#footer > div.footer_wrap > p.addr > span.tel{ color:#3c3c3c; }
+#footer > div.footer_wrap > p.addr > span.arrow{ padding:0 8px; color:#c8c8c8; }
+#footer > div.footer_wrap > p.copy{line-height:13px; font-size:11px; color:#969696; }
+#footer > div.footer_wrap > div.qr{ position:absolute; top:20px; left:0px; }
+
+#footer > div.footer_wrap > div.footer_banner{ position:absolute; top:20px; right:0; width:120px; height:34px; margin:0 auto; padding:18px 48px; }
+#footer > div.footer_wrap > div.footer_banner > div.footer_banner_area{ overflow:hidden; width:120px !important; height:34px !important; }
+#footer > div.footer_wrap > div.footer_banner > div.footer_banner_area > ul > li{ width:112px; margin-right:20px; }
+#footer > div.footer_wrap > div.footer_banner > div.roll_control > button.footer_banner_prev{ display:block; position:absolute; top:14px; left:0; width:17px; height:33px; background:url("../../img/btn/btn_banner_prev.png"); }
+#footer > div.footer_wrap > div.footer_banner > div.roll_control > button.footer_banner_next{ display:block; position:absolute; top:14px; right:0; width:17px; height:33px; background:url("../../img/btn/btn_banner_next.png"); }

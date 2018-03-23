@@ -1,0 +1,810 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml"><head>
+        
+
+
+
+    
+        
+
+
+
+
+	<title>열린경영&gt; 윤리경영&gt; HOT_LINE</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+	<meta http-equiv="cache-control" content="no-cache"><meta http-equiv="pragma" content="no-cache">
+	<link rel="stylesheet" type="text/css" href="sub02_1_5.jsp_files/board.css">
+	<link rel="stylesheet" type="text/css" href="sub02_1_5.jsp_files/common.css">
+    <link rel="stylesheet" type="text/css" href="sub02_1_5.jsp_files/sub.css">
+    <link rel="stylesheet" type="text/css" href="sub02_1_5.jsp_files/subpage.css">
+	<script type="text/javascript" src="sub02_1_5.jsp_files/java.js"></script><noscript>현재 브라우저에서 자바스크립트 처리를 하지 못합니다.</noscript>
+	<script type="text/javascript" src="sub02_1_5.jsp_files/common.js"></script><noscript>현재 브라우저에서 자바스크립트 처리를 하지 못합니다.</noscript>
+	<script type="text/javascript" src="sub02_1_5.jsp_files/common_002.js"></script><noscript>현재 브라우저에서 자바스크립트 처리를 하지 못합니다.</noscript>
+</head><body>
+<div id="wrap">
+	
+
+
+
+
+<!--<script type="text/javascript">
+function layer_toggle(obj) {
+    if (obj.style.display == 'none') { 
+        obj.style.display = 'block';
+        document.all.addr.style.visibility = "hidden";
+        document.all.select_link1.style.visibility = "hidden";
+        document.all.select_link2.style.visibility = "hidden";
+        document.all.select_link3.style.visibility = "hidden";
+        document.all.select_link4.style.visibility = "hidden";
+    } else if (obj.style.display == 'block') {
+        obj.style.display = 'none';
+        document.all.addr.style.visibility = "visible";
+        document.all.select_link1.style.visibility = "visible";
+        document.all.select_link2.style.visibility = "visible";
+        document.all.select_link3.style.visibility = "visible";
+        document.all.select_link4.style.visibility = "visible";
+    }
+}
+</script>-->
+<script type="text/javascript">
+function layer_toggle(obj) {
+        if (obj.style.display == 'none') obj.style.display = 'block';
+        else if (obj.style.display == 'block') obj.style.display = 'none';
+}
+</script>
+<div id="more01b" class="allmenu" style="display: none;">
+	<div id="all_menu" style="margin: 0pt auto;">
+		<h3 align="left"><img src="sub02_1_5.jsp_files/img_all_menu_01.gif" alt="전체보기"></h3>
+		<div id="all_menu_1">
+		
+			<div class="all_menu_01">
+				<p class="a_p"><a href="http://knoc1.nisworld.net/sub01/submain.jsp">공사소개</a></p>
+				<ul class="pt05">
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub01/sub01_1_1.jsp">CEO</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub01/sub01_2_1.jsp">기업문화</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub01/sub01_3.jsp">Great KNOC 3020</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub01/sub01_4.jsp">회사연혁</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub01/sub01_5.jsp">조직 및 인원</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub01/sub01_6.jsp">석유공사30년사</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub01/sub01_7_1.jsp">채용정보</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub01/sub01_8.jsp">석우회</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub01/sub01_9.jsp">찾아오시는길</a></li>
+											
+				</ul>
+			</div>
+				
+			<div class="all_menu_01">
+				<p class="a_p"><a href="http://knoc1.nisworld.net/sub02/submain.jsp">열린경영</a></p>
+				<ul class="pt05">
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub02/sub02_1_1_1.jsp">윤리경영</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub02/sub02_2.jsp">경영공시</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub02/sub02_3_1_1.jsp">사회공헌</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub02/sub02_4_1.jsp">환경경영</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub02/sub02_6_1_1.jsp">지속가능경영</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub02/sub02_5_1.jsp">Annual Report</a></li>
+														
+				</ul>
+			</div>
+			
+			<div class="all_menu_01">
+				<p class="a_p"><a href="http://knoc1.nisworld.net/sub03/submain.jsp">사업소개</a></p>
+				<ul class="pt05">
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub03/sub03_1_1.jsp">대륙붕사업</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub03/sub03_2_1.jsp">해외사업</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub03/sub03_3_1.jsp">건설사업</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub03/sub03_4_1_1.jsp">석유비축사업</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub03/sub03_5_1.jsp">시추선사업</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub03/sub03_6_1.jsp">석유정보</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub03/sub03_7_1.jsp">에특회계</a></li>
+	
+				</ul>
+			</div>
+					
+			<div class="all_menu_01">
+				<p class="a_p"><a href="http://knoc1.nisworld.net/sub04/submain.jsp">고객참여</a></p>
+				<ul class="pt05">
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub04/sub04_1_1.jsp">고객헌장</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub04/sub04_2.jsp">고객상담실</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub04/sub04_3.jsp">고객/국민제안</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub04/sub04_4_1.jsp?grp=SENSE">FAQ</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub04/sub04_5.jsp">민원(부조리)사항</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub04/sub04_6.jsp">예산낭비신고센터</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub04/sub04_7.jsp">설문조사</a></li>
+	
+				</ul>
+			</div>
+			
+			<div class="all_menu_02">
+			<p class="a_p"><a href="http://knoc1.nisworld.net/sub05/submain.jsp">정보마당</a></p>
+				<ul class="pt05">
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub05/sub05_1.jsp">공지사항</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub05/sub05_2.jsp">석유뉴스</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub05/sub05_3_1.jsp">사이버홍보실</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub05/sub05_4_1.jsp">정보공개방</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub05/sub05_5_1.jsp">자료실</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub05/sub05_6.jsp">위험정보</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub05/sub05_7_1.jsp">관련사이트</a></li>
+					
+				</ul>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+			
+		<div id="all_menu_2">
+			<div class="all_menu_03">
+				<p class="a_p"><a href="http://knoc1.nisworld.net/sub06/submain.jsp">석유개발연구</a></p>
+				<ul class="pt05">
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub06/sub06_1_1.jsp">연구원안내</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub06/sub06_2_1.jsp">연구개발</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub06/sub06_3_1_1.jsp">기술서비스</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub06/sub06_4_1.jsp?grp=SOIL">기술동향</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub06/sub06_5.jsp">용어사전</a></li>
+				
+				</ul>
+			</div>
+				
+			<div class="all_menu_03">
+				<p class="a_p"><a href="http://knoc1.nisworld.net/sub07/submain.jsp">어린이</a></p>
+				<ul class="pt05">
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub07/sub07_1_1.jsp">석유이야기</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub07/sub07_2_1.jsp">석유바로알기</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub07/sub07_3_1.jsp">석유참여방</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub07/sub07_4_1.jsp">석유놀이터</a></li>
+	
+				</ul>
+			</div>
+			
+			<div class="all_menu_03">
+				<p class="a_p"><a href="http://knoc1.nisworld.net/sub08/submain.jsp">이사회</a></p>
+				<ul class="pt05">
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub08/sub08_1_1_1.jsp">이사회소개</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub08/sub08_2_1_1.jsp">이사회운영</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub08/sub08_3_1_1_1.jsp">경영정보</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub08/sub08_4_1.jsp">참여마당</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub08/sub08_5_1.jsp">공지사항</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub08/sub08_6_1.jsp">이사회연락처</a></li>
+						
+				</ul>
+			</div>
+			
+			<div class="all_menu_03">
+				<p class="a_p"><a href="#">기타서비스</a></p>
+				<ul class="pt05">
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/member/login.jsp">회원가입</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/member/sitemap.jsp">사이트맵</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/member/privacy.jsp">개인정보보호정책</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/member/viewer.jsp">뷰어프로그램</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub02/">RSS서비스</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub02/">홈페이지개선의견</a></li>
+						
+					<li class="m_p pt03"><img src="sub02_1_5.jsp_files/bullet.gif" alt=""> <a href="http://knoc1.nisworld.net/sub02/">이메일주소무단수집거부</a></li>
+	
+				</ul>
+			</div>
+			<div class="all_menu_04">&nbsp;</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+
+<div style="margin: 0pt auto; width: 990px;"><a href="#" onclick="layer_toggle(document.getElementById('more01a')); layer_toggle(document.getElementById('more01b'));return false;"><img src="sub02_1_5.jsp_files/category_all_1_02.gif" alt="닫기" class="pt05" align="left"></a></div></div>
+		<div id="toparea">			
+			<h1 class="hlogo"><a href="http://knoc1.nisworld.net/"><img src="sub02_1_5.jsp_files/h_logo.gif" alt="한국석유공사"></a></h1>
+			<div id="accessibity">
+				<a href="#contents">컨텐츠 바로가기</a>
+			</div>
+			<div class="allview" id="more01a" style="display: block;"><a href="#" onclick="layer_toggle(document.getElementById('more01a')); layer_toggle(document.getElementById('more01b'));return false;"><img src="sub02_1_5.jsp_files/t_allview.gif" alt="전체보기"></a></div>
+               <div id="topnavi">				
+					<ul>
+						<li><a href="http://knoc1.nisworld.net/index.jsp"><img src="sub02_1_5.jsp_files/t_home.gif" alt="홈"></a></li>
+						
+						<li><a href="http://knoc1.nisworld.net/member/login.jsp"><img src="sub02_1_5.jsp_files/t_login.gif" alt="로그인"></a></li>
+						<li><a href="http://knoc1.nisworld.net/member/pre_join.jsp"><img src="sub02_1_5.jsp_files/t_join.gif" alt="회원가입"></a></li>
+												
+						<li><a href="http://knoc1.nisworld.net/member/sitemap.jsp"><img src="sub02_1_5.jsp_files/t_sitemap.gif" alt="사이트맵"></a></li>
+						<li><a href="http://knoc1.nisworld.net/ENG/main.html" target="_blank" title="영문사이트가 새창으로 열립니다"><img src="sub02_1_5.jsp_files/t_eng.gif" alt="ENGLISH"></a></li>
+						<li><a href="http://knoc1.nisworld.net/sub08/submain.jsp"><img src="sub02_1_5.jsp_files/t_council.gif" alt="이사회"></a></li>
+						<li><a href="http://ebid.knoc.co.kr/supplier/intro.jsp" target="_blank"><img src="sub02_1_5.jsp_files/t_tender.gif" alt="입찰정보"></a></li>
+					</ul>
+					<div class="tbtndv">
+						<a href="#" onclick="contentPrint();"><img src="sub02_1_5.jsp_files/tbtn_print.gif" alt="인쇄"></a>
+						<a href="#"><img src="sub02_1_5.jsp_files/tbtn_speaker.gif" alt="음성"></a>
+					</div>
+					<div class="fontdv">
+						<a href="#"><img src="sub02_1_5.jsp_files/tbtn_fplus.gif" alt="Plus" onclick="zoomInOut('','in');" onkeypress="zoomInOut('','in');"></a><a href="#"><img src="sub02_1_5.jsp_files/tbtn_fdef.gif" alt="Default" onclick="zoomInOut('','def');" onkeypress="zoomInOut('','def');"></a><a href="#"><img src="sub02_1_5.jsp_files/tbtn_fminus.gif" alt="Minus" onclick="zoomInOut('','out');" onkeypress="zoomInOut('','out');"></a>
+					</div>
+
+					<form name="tsearchForm" method="post" action="/search/list.jsp">					
+					<fieldset>
+						<label for="tsearch" class="nlabel">검색</label>
+						<input value="검색어를 입력하세요" id="search" name="search" onclick="this.value=''" class="input" type="text"> 
+						<a href="#" onclick="document.tsearchForm.submit();"><img src="sub02_1_5.jsp_files/tbtn_sch.gif" alt="검색"></a>
+					</fieldset>
+					</form>
+					
+				</div>
+				<div class="topmenu">
+					<ul id="topul">
+						<li id="gnb01">
+							<div id="tm1"><a href="http://knoc1.nisworld.net/sub01/submain.jsp"><img src="sub02_1_5.jsp_files/t_menu1.gif" alt="공사소개" name="tmon1" id="tmon1" onmouseover="msover(1);" onmouseout="msout(1);" onfocus="msover(1);" onblur="msout(1);" border="0"></a></div>
+							<ul class="sub" id="sub1">
+								<li class="tsleft"></li>
+		
+								<li><a href="http://knoc1.nisworld.net/sub01/sub01_1_1.jsp">CEO</a></li>
+
+								<li class="tsbar"></li>
+		
+								<li><a href="http://knoc1.nisworld.net/sub01/sub01_2_1.jsp">기업문화</a></li>
+
+								<li class="tsbar"></li>
+		
+								<li><a href="http://knoc1.nisworld.net/sub01/sub01_3.jsp">Great KNOC 3020</a></li>
+
+								<li class="tsbar"></li>
+		
+								<li><a href="http://knoc1.nisworld.net/sub01/sub01_4.jsp">회사연혁</a></li>
+
+								<li class="tsbar"></li>
+		
+								<li><a href="http://knoc1.nisworld.net/sub01/sub01_5.jsp">조직 및 인원</a></li>
+
+								<li class="tsbar"></li>
+		
+								<li><a href="http://knoc1.nisworld.net/sub01/sub01_6.jsp">석유공사30년사</a></li>
+
+								<li class="tsbar"></li>
+		
+								<li><a href="http://knoc1.nisworld.net/sub01/sub01_7_1.jsp">채용정보</a></li>
+
+								<li class="tsbar"></li>
+		
+								<li><a href="http://knoc1.nisworld.net/sub01/sub01_8.jsp">석우회</a></li>
+
+								<li class="tsbar"></li>
+		
+								<li><a href="http://knoc1.nisworld.net/sub01/sub01_9.jsp">찾아오시는길</a></li>
+																		
+								<li class="tsright"></li>
+							</ul>
+						</li>
+						<li id="gnb02">
+							<div class="tmon" id="tm2"><a href="http://knoc1.nisworld.net/sub02/submain.jsp"><img id="tmon2" onmouseover="msover(2);" onfocus="msover(2);" onmouseout="msout(2);" onblur="msout(2);" src="sub02_1_5.jsp_files/t_menu2_on.gif" alt="열린경영" border="0"></a></div>
+							<ul style="display: block;" class="sub" id="sub2">
+								<li class="tsleft"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub02/sub02_1_1_1.jsp">윤리경영</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub02/sub02_2.jsp">경영공시</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub02/sub02_3_1_1.jsp">사회공헌</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub02/sub02_4_1.jsp">환경경영</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub02/sub02_6_1_1.jsp">지속가능경영</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub02/sub02_5_1.jsp">Annual Report</a></li>
+									
+								<li class="tsright"></li>
+							</ul>
+						</li>
+						<li id="gnb03">
+							<div id="tm3"><a href="http://knoc1.nisworld.net/sub03/submain.jsp"><img id="tmon3" onmouseover="msover(3);" onfocus="msover(3);" onmouseout="msout(3);" onblur="msout(3);" src="sub02_1_5.jsp_files/t_menu3.gif" alt="사업소개" border="0"></a></div>
+							<ul class="sub" id="sub3">
+								<li class="tsleft"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub03/sub03_1_1.jsp">대륙붕사업</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub03/sub03_2_1.jsp">해외사업</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub03/sub03_3_1.jsp">건설사업</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub03/sub03_4_1_1.jsp">석유비축사업</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub03/sub03_5_1.jsp">시추선사업</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub03/sub03_6_1.jsp">석유정보</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub03/sub03_7_1.jsp">에특회계</a></li>
+									
+								<li class="tsright"></li>
+							</ul>
+						</li>
+						<li id="gnb04">
+							<div id="tm4"><a href="http://knoc1.nisworld.net/sub04/submain.jsp"><img id="tmon4" onmouseover="msover(4);" onfocus="msover(4);" onblur="msout(4);" onmouseout="msout(4);" src="sub02_1_5.jsp_files/t_menu4.gif" alt="고객참여" border="0"></a></div>
+							<ul class="sub" id="sub4">
+								<li class="tsleft"></li>
+								
+								<li><a href="http://knoc1.nisworld.net/sub04/sub04_1_1.jsp">고객헌장</a></li>
+
+								<li class="tsbar"></li>
+								
+								<li><a href="http://knoc1.nisworld.net/sub04/sub04_2.jsp">고객상담실</a></li>
+
+								<li class="tsbar"></li>
+								
+								<li><a href="http://knoc1.nisworld.net/sub04/sub04_3.jsp">고객/국민제안</a></li>
+
+								<li class="tsbar"></li>
+								
+								<li><a href="http://knoc1.nisworld.net/sub04/sub04_4_1.jsp?grp=SENSE">FAQ</a></li>
+
+								<li class="tsbar"></li>
+								
+								<li><a href="http://knoc1.nisworld.net/sub04/sub04_5.jsp">민원(부조리)사항</a></li>
+
+								<li class="tsbar"></li>
+								
+								<li><a href="http://knoc1.nisworld.net/sub04/sub04_6.jsp">예산낭비신고센터</a></li>
+
+								<li class="tsbar"></li>
+								
+								<li><a href="http://knoc1.nisworld.net/sub04/sub04_7.jsp">설문조사</a></li>
+
+								<li class="tsright"></li>
+							</ul>
+						</li>
+						<li id="gnb05">
+							<div id="tm5"><a href="http://knoc1.nisworld.net/sub05/submain.jsp"><img id="tmon5" onmouseover="msover(5);" onfocus="msover(5);" onmouseout="msout(5);" onblur="msout(6);" src="sub02_1_5.jsp_files/t_menu5.gif" alt="정보마당" border="0"></a></div>
+							<ul class="sub" id="sub5">
+								<li class="tsleft"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub05/sub05_1.jsp">공지사항</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub05/sub05_2.jsp">석유뉴스</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub05/sub05_3_1.jsp">사이버홍보실</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub05/sub05_4_1.jsp">정보공개방</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub05/sub05_5_1.jsp">자료실</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub05/sub05_6.jsp">위험정보</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub05/sub05_7_1.jsp">관련사이트</a></li>
+
+								<li class="tsright"></li>
+							</ul>
+						</li>
+						<li id="gnb06">
+							<div id="tm6"><a href="http://knoc1.nisworld.net/sub06/submain.jsp"><img id="tmon6" onmouseover="msover(6);" onfocus="msover(6);" onmouseout="msout(6);" onblur="msout(7);" src="sub02_1_5.jsp_files/t_menu6.gif" alt="석유기술연구" border="0"></a></div>
+							<ul class="sub" id="sub6">
+								<li class="tsleft"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub06/sub06_1_1.jsp">연구원안내</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub06/sub06_2_1.jsp">연구개발</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub06/sub06_3_1_1.jsp">기술서비스</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub06/sub06_4_1.jsp?grp=SOIL">기술동향</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub06/sub06_5.jsp">용어사전</a></li>
+
+								<li class="tsright"></li>
+							</ul>
+						</li>
+						<li id="gnb07">
+							<div id="tm7"><a href="http://knoc1.nisworld.net/sub07/submain.jsp"><img id="tmon7" onmouseover="msover(7);" onfocus="msover(7);" onmouseout="msout(7);" onblur="msout(8);" src="sub02_1_5.jsp_files/t_menu7.gif" alt="어린이" border="0"></a></div>
+							<ul class="sub" id="sub7">
+								<li class="tsleft"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub07/sub07_1_1.jsp">석유이야기</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub07/sub07_2_1.jsp">석유바로알기</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub07/sub07_3_1.jsp">석유참여방</a></li>
+
+								<li class="tsbar"></li>
+									
+								<li><a href="http://knoc1.nisworld.net/sub07/sub07_4_1.jsp">석유놀이터</a></li>
+
+								<li class="tsright"></li>
+							</ul>
+						</li>
+					</ul>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+		function initNavigation(seq) {
+			 nav = document.getElementById("topul");
+			 nav.menu = new Array(); 
+			 nav.current = null;
+			 nav.menuseq = 0;
+			 navLen = nav.childNodes.length;	
+ 			
+			 allA = nav.getElementsByTagName("a") // 1Depth 메뉴 담기
+			 //alert(allI);
+			 for(k = 0; k < allA.length; k++) {  // allA(1Depth갯수)
+		  
+						allA.item(k).onmouseover = allA.item(k).onfocus = function () { //1Depth에 포커스가 왔을때 해당 1Depth에 onmouseover 준다
+							nav.isOver = true;  //isOver = 마우스의 위치를 감지하는 필드 > 마우스 포인터가 어느 위치 위에 놓였을 때 true 값 발생							
+						}
+						allA.item(k).onmouseout = allA.item(k).onblur = function () { //1Depth에서 마우스가 벗어났을 때 1Depth에 onmouseout 준다
+							nav.isOver = false; //마우스 포인터가 해당 위치 위가 아니기 때문에 false	
+							setTimeout(function () {
+
+								if (nav.isOver == false) {
+									if (nav.menu[seq])
+										nav.menu[seq].onmouseover();
+									else if(nav.current) {						
+										if (nav.current.submenu)
+											nav.current.submenu.style.display = "none";
+										nav.current = null;
+									}
+								}
+							}, 500);
+						} // allA.item(k)
+							
+			} //for
+		
+			for (i = 0; i < navLen; i++) { 
+				navItem = nav.childNodes.item(i);
+				
+				if (navItem.tagName != "LI") continue;
+				navAnchor = navItem.getElementsByTagName("a").item(0);  
+				navAnchor.submenu = navItem.getElementsByTagName("ul").item(0);  				
+		    
+				navAnchor.onmouseover = navAnchor.onfocus = function () { 
+					if (nav.current) {
+						if (nav.current.submenu)	nav.current.submenu.style.display = "none";
+						nav.current = null;
+					}
+					if (nav.current != this) {
+						if (this.submenu)	this.submenu.style.display = "block";
+						nav.current = this;
+					}
+					nav.isOver = true;
+				}
+				nav.menuseq++;
+				nav.menu[nav.menuseq] = navAnchor;
+			}
+			if (nav.menu[seq])	
+				nav.menu[seq].onmouseover(); 
+				
+			if (seq != '0' && seq != '8' && seq != '9' && seq != '10'){
+				document.getElementById("tmon"+seq).src="/images/common/t_menu"+seq+"_on.gif"; 
+				document.getElementById("tm"+seq).className = "tmon";
+			}
+		} 
+		
+		
+		var Mona="";
+		function msinit(Mnum){
+			document.getElementById("tmon"+Mnum).src="/images/common/t_menu"+Mnum+"_on.gif";
+			Mona=Mnum;
+		}
+		function msover(num){
+		if(num!=Mona){
+			document.getElementById("tmon"+num).src="/images/common/t_menu"+num+"_on.gif";
+			}
+		}
+		function msout(num){
+		if(num!=Mona){
+			document.getElementById("tmon"+num).src="/images/common/t_menu"+num+".gif";
+			}
+		}
+</script>
+
+<script type="text/javascript"> msinit('2');</script>
+
+<script type="text/javascript"> initNavigation(2);</script>
+<!--// subtopNavi: start //-->
+
+	<div id="contents">
+    	<!--// leftmenu: start //-->
+        
+
+
+	<div id="leftarea">
+		<div class="menuleftdv">
+        
+        <h2><img src="sub02_1_5.jsp_files/sleft_tle2.gif" alt="공사소개"></h2>
+        	<ul>
+				
+				<li><div class="smenu_on"><a href="http://knoc1.nisworld.net/sub02/sub02_1_1_1.jsp"><div class="s1_on">윤리경영</div></a></div></li>
+					
+
+					<ul class="sleftul">				
+					
+						<li class="son"><a href="http://knoc1.nisworld.net/sub02/sub02_1_1_1.jsp">윤리경영소개</a></li>
+					
+						<li class="son"><a href="http://knoc1.nisworld.net/sub02/sub02_1_2_1.jsp">윤리경영소식</a></li>
+					
+						<li class="son"><a href="http://knoc1.nisworld.net/sub02/sub02_1_3_1.jsp">윤리경영제도</a></li>
+					
+						<li class="son"><a href="http://knoc1.nisworld.net/sub02/sub02_1_4_1.jsp">윤리규범</a></li>
+					
+						<li class="son2"><a href="http://knoc1.nisworld.net/sub02/sub02_1_5.jsp">HOT_LINE</a></li>
+
+					</ul>
+
+				<li><div class="smenu_off"><a href="http://knoc1.nisworld.net/sub02/sub02_2.jsp"><div class="s1_off">경영공시</div></a></div></li>
+					
+
+				<li><div class="smenu_off"><a href="http://knoc1.nisworld.net/sub02/sub02_3_1_1.jsp"><div class="s1_off">사회공헌</div></a></div></li>
+					
+
+				<li><div class="smenu_off"><a href="http://knoc1.nisworld.net/sub02/sub02_4_1.jsp"><div class="s1_off">환경경영</div></a></div></li>
+					
+
+				<li><div class="smenu_off"><a href="http://knoc1.nisworld.net/sub02/sub02_6_1_1.jsp"><div class="s1_off">지속가능경영</div></a></div></li>
+					
+
+				<li><div class="smenu_off"><a href="http://knoc1.nisworld.net/sub02/sub02_5_1.jsp"><div class="s1_off">Annual Report</div></a></div></li>
+					
+				     
+        
+        
+        	</ul>
+		</div>
+	</div>	
+        <!--// leftmenu: end //-->
+		
+		<div id="rightarea">
+			<div id="subcnts">
+				
+<h1><img src="sub02_1_5.jsp_files/sub_title.jpg" alt="열린경영(Open Book Management) 대한민국 경제를 움직이는 에너지,그 시작은 언제나 한국석유공사입니다"></h1>
+				<!--// location: start //-->
+				<div class="locadv">
+					<a href="#"><img src="sub02_1_5.jsp_files/loca_home.gif" alt="HOME"></a>
+					&gt; 열린경영
+                    &gt; 윤리경영
+					&gt; <span class="locanow">HOT_LINE</span>
+				</div>
+				<!--// location: end //-->
+				
+				<!-- [2009-09-21 수정] :: 작성자: 장정인 -->
+				<div class="pagetle">
+					<h3><img src="sub02_1_5.jsp_files/ttl_sub02_1_5.gif" alt="HOT_LINE"></h3>
+				</div>
+				<!--시작-->
+				<div class="hotLine">
+					<div><img src="sub02_1_5.jsp_files/sub02_1_5_ta12.gif" alt="">
+						<p class="blindtext">윤리경영 Hot-line은 공사의 임직원, 협력회사(직원), 고객/국민이 공사와 공사 임직원의 비윤리적 행위를 신고하거나, 윤리경영의 효율적인 정착을 위하여 잘못된 관행이나 제도에 대한 제안(개선)사항을 접수하는 공간입니다. </p>
+					</div>
+					<div class="line01">
+						<ul>
+						<li>실명 또는 무기명으로 신고하는 것이 가능합니다. 실명으로 신고 시에는 빠른 시일 내에 조사,처리하고 회신하여 드리겠습니다. 무기명으로 신고 시에는 내용을 검토 후 조사,처리하겠습니다.</li>
+						<li>또한 제안(개선)사항에 대해서도 실명 또는 무기명으로 접수합니다. 제안 시에는 내용의 타당성을 검토하여 반영여부를 회신하여 드리겠습니다.</li>
+						<li>신고/제안자의 신분은 공개되지 않으며, 제안/신고로 인한 어떠한 불이익도 받지 않음을 알려드립니다.</li>
+						<li>고객서비스 측면에서의 제안/개선사항은 [고객/국민제안]을, 민원에 관련된 사항은 [민원(부조리)사항] 을 이용하여 주시기 바랍니다. </li>
+						</ul>
+					</div>
+					<div class="line02">
+						<ul>
+						<li><a href="#"><img src="sub02_1_5.jsp_files/sub02_1_5_ta12_bt1.gif" alt="고발/제보자 보호조치" border="0"></a></li>
+						<li><a href="http://knoc1.nisworld.net/sub04/sub04_5.jsp"><img src="sub02_1_5.jsp_files/sub02_1_5_ta12_bt2.gif" alt="신고접수하기" border="0"></a></li>
+						<li><a href="http://knoc1.nisworld.net/sub04/sub04_5.jsp"><img src="sub02_1_5.jsp_files/sub02_1_5_ta12_bt3.gif" alt="처리결과조회" border="0"></a></li>
+						<li><a href="#"><img src="sub02_1_5.jsp_files/sub02_1_5_ta12_bt4.gif" alt="개인정보 보호정책" border="0"></a></li>
+						<li><a href="http://knoc1.nisworld.net/sub04/sub04_3.jsp"><img src="sub02_1_5.jsp_files/sub02_1_5_ta12_bt5.gif" alt="제안접수하기" border="0"></a></li>
+						<li><a href="http://knoc1.nisworld.net/sub04/sub04_3.jsp"><img src="sub02_1_5.jsp_files/sub02_1_5_ta12_bt6.gif" alt="처리결과조회" border="0"></a></li>
+						</ul>
+						<div><img src="sub02_1_5.jsp_files/sub02_1_5_ta12_bt7.gif" alt="주소 :">
+							<p class="blindtext"> (431-711) 안양시 동안구 관양동 1588-14 한국석유공사 윤리경영담당부서 전화번호 : 법무팀장 (031-380-2650) E-mail : ethics@knoc.co.kr</p>
+						</div>
+					</div>
+					<h4 class="mT30"><img src="sub02_1_5.jsp_files/sub02_1_5_ta1.gif" alt="고발/제보자 보호조치 "></h4>
+					<ul class="line03">
+					<li>법적근거 : 부패방지법 제32조(신분보장) 및 제33조(신변의 보호)</li>
+					<li>비공개(익명) 조사, 처리 및 신분노출 금지</li>
+					<li>부패방지법 제27조(신고자의 성실의무)에 따라 신고자가 신고내용이 허위라는 사실을 알았거나 알 수 있음에도 신고한 경우에는 보호를 받지 못함</li>
+					<li>신분상 불이익 또는 근무조건상의 차별 금지</li>
+					<li>외부인인 경우 소속 단체와 기업의 장에게 적절한 신분보장 조치 요청</li>
+					<li>신고로 인해 자신의 부정행위가 발견된 경우 감경 또는 면제</li>
+					</ul>
+					<h4 class="mT20"><img src="sub02_1_5.jsp_files/sub02_1_5_ta2.gif" alt="개인정보보호정책"></h4>
+					<p>한국석유공사가 취급하는 모든 개인정보는 관련 법령에 근거하거나 정보주체의 동의에 의하여 수집·보유 및 처리되고 있습니다.<br>
+[공공기관의개인정보보호에관한법률]은 이러한 개인정보의 취급에 대한 일반적 규범을 제시하고 있으며, 한국석유공사는 이러한 법령의
+규정에 따라 수집·보유 및 처리하는 개인정보를 공공업무의 적절한 수행과 국민의 권익을 보호하기 위해 적법하고 적정하게 취급할
+것입니다.<br>
+또한, 한국석유공사는 관련 법령에서 규정한 바에 따라 우리 부에서 보유하고 있는 개인정보에 대한 열람청구권 및 정정청구권 등
+여러분의 권익을 존중하며, 여러분은 이러한 법령상 권익의 침해 등에 대하여 행정심판법에서 정하는 바에 따라 행정심판을 청구할 수
+있습니다. 다음은 한국석유공사의 개인정보보호방침을 설명 드리겠습니다.<br>
+우리 부의 개인정보보호방침은 한국석유공사가 운영하는 홈페이지(www.knoc.co.kr)에서 이용자 여러분의 개인정보를 보호하기
+위한 [홈페이지 이용자의 개인정보 보호]와 소관업무를 수행하는데 필요한 개인정보 취급에 대한 [컴퓨터에 의해 처리되는 개인 정보
+보호] 두 가지로 구성되어 있습니다.먼저 [홈페이지 이용자의 개인정보 보호]에 대하여 설명 드리겠습니다. </p>
+					<p><strong>Ⅰ. 한국석유공사 홈페이지 이용자의 개인정보보호</strong></p>
+					<p class="line04">가.자동으로 수집.저장되는 개인정보<br>
+					나.이메일 및 웹 서식 등을 통한 수집정보<br>
+					다.부가서비스 이용시 수집되는 개인정보<br>
+					라.개인정보의 수집·이용목적<br>
+					마.개인정보의 열람·정정<br>
+					바.웹사이트에서 운영하는 보안조치<br>
+					사.링크 사이트·웹 페이지<br>
+					아.웹사이트 이용 중 다른 사람의 개인정보 취득<br>
+					자.개인정보 침해사항의 신고 </p>
+					<p><strong>2.[컴퓨터에 의해 처리되는 개인정보]에 대한 우리 부의 취급 및 보호방침</strong></p>
+					<p class="line04">가.개인정보의 수집 및 보유<br>
+					나.개인정보의 이용 및 제공의 제한<br>
+					다.개인정보화일의 열람 및 정정 청구 <br>
+					라.권익침해 구제방법('공공기관의 개인정보보호에 관한 법률'의 경우)<br>
+					마.개인정보보호 책임관의 이메일 등 연락처<br>
+					바.개인정보 수집, 이용, 제공에 대한 동의철회</p>
+					<p><strong>Ⅰ. 한국석유공사 홈페이지 이용자의 개인정보보호 </strong></p>
+					<p>여
+기는 한국석유공사의 웹사이트입니다. 우리 부 홈페이지의 이용에 대해 감사드리며, 홈페이지에서의 개인정보보호방침에 대하여 설명을
+드리겠습니다. 이는 현행 [공공기관의개인정보보호에관한법률] 및 [공공기관의개인정보보호를위한기본지침]에 근거를 두고 있습니다. 이
+지침은 우리 부에서 운영하고 있는 웹사이트(www.knoc.co.kr)에 적용됨을 알려드립니다.</p>
+					<p class="red">가.자동으로 수집·저장되는 개인정보</p>
+					<p>여러분이 우리 부 홈페이지를 이용할 경우 다음의 정보는 자동적으로 수집·저장됩니다.</p>
+					<p class="line04">- 이용자 여러분의 인터넷서버 도메인과 우리 홈페이지를 방문할 때 거친<br>
+					- 웹사이트의 주소<br>
+					- 이용자의 브라우져 종류 및 OS<br>
+					- 방문일시 등</p>
+					<p>이
+용자들에게 보다 양질의 서비스를 제공하기 위해서 한국석유공사 홈페이지에서는 이용자들의 정보를 저장하고 수시로 불러 오는
+'쿠키'를 사용합니다. 쿠키는 웹사이트를 운용하는데 이용되는 서버(HTTP)가 이용자의 컴퓨터 브라우저에게 보내는 소량의
+정보이며, 이용자들의 PC 컴퓨터내의 하드디스크에 저장되기도 합니다. 위와 같이 자동 수집·저장되는 정보는 이용자 여러분에게
+보다 나은 서비스를 제공하기 위해 홈페이지의 개선과 보완을 위한 통계분석, 이용자와 웹사이트간의 원활한 의사소통 등을 위해
+이용되어질 것입니다. 다만, 법령의 규정에 따라 이러한 정보를 제출하게 되어 있을 경우도 있다는 것을 유념하시기 바랍니다.</p>
+					<p class="red">나.이메일 및 웹 서식 등을 통한 수집정보</p>
+					<p>이용자 여러분은 우편, 전화 또는 온라인 전자서식 등을 통한 전자적 방법을 통해 의사를 표시할 수 있습니다. 이러한 방법의 선택에 있어 몇 가지 유의사항을 알려드립니다. </p>
+					<p class="line04">- 여러분이 기재한 사항은 관련법령의 시행과 정책개발의 자료로 사용될 수 있습니다. <br>
+					- 또한, 이러한 정보는 타 부처와 공유되거나, 필요에 의하여 제공될 수도 있습니다. </p>
+					<p class="red">다.부가서비스 이용시 수집되는 개인정보</p>
+					<p>웹
+사이트에서 여러분이 한국석유공사 홈페이지 회원에 가입하시거나 사이버민원실을 이용하시고자 할 경우 및 게시판 등에 글쓰기를
+하시고자하는 경우에, 한국석유공사에서는 필요한 최소한의 개인정보를 수집하며, 이에 대한 동의를 얻고 있습니다. 수집하는 개인정보
+항목은 다음과 같습니다. </p>
+					<p class="line04">- 홈페이지 회원가입 시 : 이름, 주민등록번호, 전화번호, E-Mail, 주소, 직업 및 업종 등<br>
+					- 민원접수 시 : 이름, 주민등록번호, 주소, 전화번호, E-Mail <br>
+					- 게시판 글쓰기 : 이름, 주민등록번호 </p>
+					<p class="red">마.개인정보의 열람·정정</p>
+					<p>한
+국석유공사 회원에 가입하신 분께서는 언제든지 개인정보를 열람하거나 정정하실 수 있습니다. 개인정보를 열람 또는 정정하고자 하실
+때에는 「회원가입」메뉴에 있는「회원정보수정」을 클릭하여 직접 열람 또는 정정을 하시거나, 담당자에게 전화 또는 E-Mail로
+연락하시면 지체없이 조치해 드리겠습니다. 여러분께서 개인정보의 오류에 대한 정정을 요청하신 경우, 정정을 완료하기 전까지
+개인정보를 이용하거나 제공하지 않습니다. </p>
+					<p class="red">바.웹사이트에서 운영하는 보안조치 </p>
+					<p>홈페이지의 보안 또는 지속적인 서비스를 위해, 우리 부는 네트워크 트래픽의 통제(Monitor)는 물론 불법적으로 정보를 변경하는 등의 시도를 탐지하기 위해 여러가지 프로그램을 운영하고 있습니다.</p>
+					<p class="red">사.링크 사이트·웹 페이지</p>
+					<p>한국석유공사가 운영하는 웹페이지에 포함된 링크 또는 배너를 클릭하여 다른 사이트 또는 웹페이지로 옮겨갈 경우 개인정보보호방침은 그 사이트 운영기관이 게시한 방침이 적용됨으로 새로 방문한 사이트의 방침을 확인하시기 바랍니다.</p>
+					<p class="red">아.웹사이트 이용 중 다른 사람의 개인정보 취득</p>
+					<p>한
+국석유공사가 운영하는 웹사이트에서 이메일 주소 등 식별할 수 있는 개인정보를 취득하여서는 아니됩니다. 詐僞 기타 부정한 방법으로
+이러한 개인정보를 열람 또는 제공받은 자는 [공공기관의개인정보보호에관한법률] 제23조의 규정에 의하여 처벌을 받을 수 있습니다.
+</p>
+					<p class="red">자.개인정보 침해사항의 신고 </p>
+					<p>우리 부의 웹사이트 이용 중 개인정보의 유출 가능성 등 정보주체의 권익이 침해될 우려가 있는 사실을 발견하였을 경우는 다음의 연락처로 알려주시기 바랍니다.</p>
+					<p class="line04">- 한국석유공사 개인정보보호책임관 <br>
+					- 이메일 : paksak@knoc.co.kr<br>
+					- 전화번호 : 031-380-2435 Fax : 031-380-2485<br>
+					- 주소 : 우)431-060 경기도 안양시 동안구 관양동 1588-14 </p>
+				</div>
+				<!--//끝-->
+			</div>
+		</div>
+	</div>
+	
+		<div class="fooclr_1"></div>
+	<div id="foot" class="pB30">
+		
+
+		<div class="copyright">
+			<h3 class="footLogo"><img src="sub02_1_5.jsp_files/b_logo.gif" alt="석유공사 logo"></h3>
+			<div class="footAdd">
+				<div class="copyr">
+				<ul>
+					<li><a href="http://knoc1.nisworld.net/sub04/sub04_2.jsp"><img src="sub02_1_5.jsp_files/b_menu_01.gif" alt="고객상담실" border="0"></a></li>
+					<li><a href="http://knoc1.nisworld.net/sub01/sub01_7_1.jsp"><img src="sub02_1_5.jsp_files/b_menu_02.gif" alt="채용정보" border="0"></a></li>
+					<li><a href="http://knoc1.nisworld.net/sub02/sub02_3_1_1.jsp"><img src="sub02_1_5.jsp_files/b_menu_03.gif" alt="사회봉사" border="0"></a></li>
+					<li><a href="#"><img src="sub02_1_5.jsp_files/b_menu_04.gif" alt="홈페이지개선의견" border="0"></a></li>
+					<li><a href="http://knoc1.nisworld.net/member/privacy.jsp"><img src="sub02_1_5.jsp_files/b_menu_05.gif" alt="개인정보보호정책" border="0"></a></li>
+					<li><a href="#"><img src="sub02_1_5.jsp_files/b_menu_06.gif" alt="이메일주소무단수집거부" border="0"></a></li>
+					<li><a href="http://knoc1.nisworld.net/member/viewer.jsp"><img src="sub02_1_5.jsp_files/b_menu_07.gif" alt="뷰어프로그램" border="0"></a></li>
+					<li><a href="#"><img src="sub02_1_5.jsp_files/b_menu_08.gif" alt="RSS" border="0"></a></li>
+					<li><a href="http://knoc1.nisworld.net/sub01/sub01_9.jsp"><img src="sub02_1_5.jsp_files/b_menu_09.gif" alt="찾아오시는길" border="0"></a></li>
+				</ul>
+				</div>
+				<div style="clear: both;"></div>
+				<p style="font-size: 11px; color: rgb(102, 102, 102); line-height: 14px; margin-top: 2px;">우) 431-711 경기도 안양시 동안구 관양동 1588-14 TEL : 031) 380-2114 FAX : 031) 387-9321 Mail : sklee@knoc.co.kr<br>Copyright⒞ 2009 by Korea National Oil Corporation. All rights reserved.</p>
+			</div>
+		</div>
+	</div><!--// footer: start //-->	<!--// footer: end //-->
+</div>
+
+<map name="Map"><area shape="rect" coords="94,306,255,365" href="#" onfocus="blur();" alt="고발/제보자 보호조치"><area shape="rect" coords="269,309,435,366" href="#" onfocus="blur();" alt="신고접수하기"><area shape="rect" coords="453,307,615,366" href="#" onfocus="blur();" alt="처리결과조회"><area shape="rect" coords="95,371,256,426" href="#" onfocus="blur();" alt="개인정보 보호정책"><area shape="rect" coords="272,373,434,428" href="#" onfocus="blur();" alt="제안접수하기"><area shape="rect" coords="451,372,620,428" href="#" onfocus="blur();" alt="처리결과조회"></map>
+</body></html>

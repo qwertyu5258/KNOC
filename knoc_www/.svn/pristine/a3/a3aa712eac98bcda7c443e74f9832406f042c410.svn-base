@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+    
+    <%
+    	String aboutUs = (request.getServletPath().toString().indexOf("/sub01/") > -1 ? "sub01_5.jsp" : "sub02_2_1_5.jsp");
+    	String OrganizationChart = (request.getServletPath().toString().indexOf("/sub01/") > -1 ? "sub01_5_1.jsp" : "sub02_2_1_5_1.jsp");
+    %>
+
+			<div class="organization">
+				<h4><img src="/images/management/sub02_2_4_1_.gif" alt="조직"/></h4>
+					<p>조직 :  4본부, 1단, 20처·센터, 10국내지사·사무소, 3해외사무소</p>
+				<div class="organ">
+					<ul class="tab">
+						<li><a href="<%= aboutUs %>" title="조직도" ><img src="/images/management/sub02_2_4_1_1r.gif" alt="조직도"  id="premier_button1"/></a></li>
+						<li><a href="<%= OrganizationChart %>" title="각 부서 주요업무" ><img src="/images/management/sub02_2_4_1_2.gif" alt="각 부서 주요업무" id="premier_button2"/></a></li>
+						<!-- <li><a href="sub02_2_1_5_2.jsp" title="각 부서 연락처" ><img src="/images/management/sub02_2_4_1_3.gif" alt="각 부서 연락처" id="premier_button3"/></a></li>-->
+					</ul>
+					<div>
+						<img src="/images/info/img1_sub01_5_.gif" alt="조직도" longdesc="/sub01/org_long.html" />
+					</div>
+				</div>						
+			</div>
+			
+			
+		<div class="new_officer">
+			<table summary="담당부서 및 연락처 관리일">
+			<caption>담당부서 및 연락처 관리일</caption>
+				<tbody>
+					<tr>
+						<td class="write_day"><strong>작성기준일 : </strong>2016-04-19</td>
+						<td class="contact_team"><strong>담당부서 : </strong>인재경영처 인사팀</td>
+						<td class="contact_user"><strong>담당자 : </strong>차유회</td>
+						<td class="contact_tel"><strong>연락처 : </strong>052-216-2707</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>	

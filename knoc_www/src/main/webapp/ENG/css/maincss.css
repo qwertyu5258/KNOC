@@ -1,0 +1,101 @@
+@charset "euc-kr";
+/* body------------------------------ */
+	body { margin-left:0px;	margin-top:0; font-family: Arial; font-size: 9pt; color:#666666; line-height:120%; text-align:left; }
+		
+		
+/* 링크------------------------------ */
+	
+	a.a1:link {TEXT-DECORATION: none; color:#666666; }
+	a.a1:visited {COLOR:#3c3c3c; TEXT-DECORATION: none; }
+	a.a1:hover, a.a1:active, a.a1:focus {COLOR:#e30009; text-decoration:none; }
+	
+	a.a2:link {TEXT-DECORATION: none; color:#FFFFFF; font-weight:bold;} 
+	a.a2:visited {COLOR:#FFFFFF; TEXT-DECORATION: none; font-weight:bold;}
+	a.a2:hover {COLOR:#FFFFFF; text-decoration:none; font-weight:bold;} 
+	
+	.leftmenu_on { padding-left:13px; COLOR:#FFFFFF; font-weight:bold; border-bottom:4px solid #ffffff;}
+	.leftmenu { padding:0 20px 0 15px; border:1px solid #d2d2d2; }
+	td.a1 {padding:0 15px 0 20px;}
+	tr:first-child > td.a1 {padding-top:15px;}
+	
+
+/* 탑메뉴 영역 ------------------------------ */	
+	#tmenu { position:relative;	visibility:visible; width:990px; }
+		#tmenu #sub01 { position:absolute; left:200px; top:66px; width:545px; height:18px; z-index:1; visibility:hidden; }
+		#tmenu #sub02 { position:absolute; left:200px; top:66px; width:428px; height:18px; z-index:2; visibility:hidden; }
+		#tmenu #sub03 { position:absolute; right:0px; top:66px; width:900px; height:18px; z-index:3; visibility:hidden; }
+		#tmenu #sub04 { position:absolute; right:0px; top:66px; width:530px; height:18px; z-index:4; visibility:hidden; }
+		#tmenu #sub05 { position:absolute; right:0px;	top:66px; width:430px; height:18px;	z-index:5; visibility:hidden; }
+		#tmenu #sub06 { position:absolute; right:0px;	top:66px; width:495px; height:18px;	z-index:6; visibility:hidden; }
+	
+	.submenu_text{ font-family: Arial; font-size: 9pt; color:#ffffff;text-decoration:none }
+	.submenu_text a:link, .submenu_text a:hover, .submenu_text a:active, .submenu_text a:visited { font-family: Arial; font-size: 9pt; color:#ffffff;text-decoration:none }
+
+	.submenu_bar { margin-left:7px; margin-right:7px; margin-bottom:1px; }
+	.topmenu_boxmargin { margin-top:7px; }
+
+
+/* 메인플래시 이미지 영역 ------------------------------ */	
+	#mainimg { position:relative;	visibility:visible; width:990px; }
+		#mainimg #tab { position:absolute; right:30px; top:10px; width:220px; height:18px; z-index:17; visibility:visible; }
+		#mainimg #tab01 {
+	position:absolute;
+	right:30px;
+	top:10px;
+	width:220px;
+	height:18px;
+	z-index:18;
+	visibility:visible;
+}
+		#mainimg #tab02 {
+	position:absolute;
+	right:30px;
+	top:10px;
+	width:220px;
+	height:18px;
+	z-index:19;
+	visibility:hidden;
+}
+		
+		.select { font-family: Arial;  font-size: 12px; color: #666666; border: 1px solid #cccccc; width:186px;}
+		
+		
+/* 컨텐츠 영역 ------------------------------ */
+	.cont_boxmargin { margin-top:15px; }
+	
+	.cont_infotitle { font-family: Arial; font-size: 9pt; color:#ffffff; }
+	.cont_infotest_down { font-family: Arial; font-size: 9pt; color:#136ac3; }
+	.cont_infotest_up { font-family: Arial; font-size: 9pt; color:#eb4d10; }
+	
+	.cont_prroom { font-family: Arial; font-size: 7pt; color:#666666; }
+
+
+/* 카피라이트 영역 ------------------------------ */
+	.copyright_topline { border-top:#dddddd solid 1px; }
+	.copyright_topmargin { margin-top:15px; }
+#mainimg #tab02 .map2_img1 {
+	float: left;
+	padding-left: 50px;
+}
+#mainimg #tab02 .map2_img2 {
+	padding-top: 27px;
+	float: left;
+}
+
+
+/* 2010.08.16 */
+
+div.nm_mapbox {clear:both;margin-top:7px;position:relative;width:212px;height:50px;background: url('/ENG/images/new_main/n_mbg01.gif') no-repeat;}
+div.nm_mapbox h2 {padding-top:5px;margin-left:8px;}
+div.nm_searchbox {position:absolute;top:23px;left:8px;}
+
+div.noticearea {position:relative;width:320px;height:105px;margin-top:0px;}
+div.notice_title {display:block;position:relative;background: url('/ENG/images/new_main/board_bg.gif') repeat-x top;height:21px;width:320px;}
+li {list-style: none;}
+div.notice_title p {position:absolute;top:5px;right:0px;}
+
+a:link {color:#959595;}
+a:hover {color:#959595;}
+a:visited {color:#959595;}
+a:actived {color:#959595;}
+

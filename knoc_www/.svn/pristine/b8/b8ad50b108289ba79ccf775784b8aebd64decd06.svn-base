@@ -1,0 +1,195 @@
+@charset "euc-kr";
+
+
+
+/* body------------------------------ */
+	body {
+	margin-left:0px;
+	margin-top:0;
+    font-family: Arial;
+    font-size: 9pt;
+    color:#666;
+    line-height:130%;
+	text-align:left;
+	
+     }
+		
+		
+/* 링크------------------------------ */
+
+	/*A:link {TEXT-DECORATION: none; color:#666666;}
+	A:active {COLOR:#0370c6; text-decoration:underline  }
+	A:visited {COLOR:#4b4b4b; TEXT-DECORATION: none;}
+	A:hover {COLOR:#DD0000; text-decoration:underline}*/
+	
+	
+	
+	.loca_text{
+	 color:#e05003;
+	}
+	
+	.td_sbumenu02{
+	padding-left:20px;
+	line-height:110%;
+	}
+	
+	.td_sbumenu03{
+	line-height:110%;
+	}
+	
+	.sub_bull {
+	list-style-type: square;
+	}
+
+
+	select{
+	 font-size: 9pt;color:#666;
+	 }
+
+	.table_right_top02 {border-top:#e96f03 solid 2px;}
+	.table_right_top03 {border-top:#e96f03 solid 2px;border-right:#DDDDDD solid 1px;}
+	.table_right_top05 {border-bottom:#DD0902 solid 1px; border-top:#DD0902 solid 1px;  border-right:#DDDDDD solid 1px; color:#dd0700;}
+	.box02 td{border-bottom:#DDDDDD solid 1px; }
+	
+	.table_right_top {border-top:#DD0902 solid 1px; border-bottom:#DD0902 solid 1px; color:#dd0700;}
+	.table_right_top04 {border-bottom:#DD0902 solid 1px; color:#dd0700;}
+	.table_right {border-right:#DDDDDD solid 1px;}
+	.txt_01 td{padding-left:15px; border-bottom:#DDDDDD solid 1px;}
+	
+     
+
+	.top_p10 {padding-top: 10px;}
+	.bullet { padding-bottom: 2px; padding-right: 4px; }
+
+
+	.table_style1 td {text-align:left; padding: 5px 0 5px 10px}
+
+	.table_style1 {border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+	border-top-color: #E96F03; border-bottom-color:#d8d8d8;}
+
+	.table_style1 .border_BR {border-bottom:#D8D8D8 solid 1px; border-right:#D8D8D8 solid 1px; background-color: #fcf5f5;
+	font-weight: bold; color: #e05003;}
+	.table_style1 .border_R { border-right:#D8D8D8 solid 1px; background-color: #fcf5f5; font-weight: bold; color: #e05003;}
+	.table_style1 .border_B { border-bottom:#D8D8D8 solid 1px;}
+	
+	/*간격 추가*/
+	.table_style1 .border_B  .bd_01 {padding-top:10px;}
+	.table_style1 .bd_01 {padding-top:10px;}
+		
+	.img_pad { padding-right: 20px;	padding-bottom: 5px; float: left; }
+	
+	
+.oil_img {margin-top:20px;text-align:center;margin-bottom:20px;}
+.oil_img p {font-weight:bold;margin-top:5px;}
+
+/* 2012-02-10 석유개발교육 */
+ul.enp_ul li {background:url('/images/directors/icon01.gif') no-repeat 0px 4px;padding-left:10px;margin-left:20px;margin-bottom:5px;}
+ul.enp_ul li ul li {background:url('/images/directors/icon02.gif') no-repeat 0px 6px;padding-left:7px;margin-left:1px;margin-bottom:5px;}
+
+table.chart2 {width:100%; border-top:1px solid #dd0902;}
+table.chart2 thead th {text-align:center; padding:9px 0px; border-bottom:1px solid #dd0902; border-left:1px solid #bbbbbb; background:#fcf5f5;}
+table.chart2 tbody td {text-align:center; padding:7px 5px 7px 5px; border-bottom:1px solid #bbbbbb; border-left:1px solid #bbbbbb;}
+table.chart2 tbody td.align_L {text-align:left ;}
+table.chart2 tbody th {font-weight:normal; text-align:center; padding:7px 5px 7px 5px; border-bottom:1px solid #bbbbbb;}
+table.chart2 .tdleft {text-align:left; vertical-align:top;}
+table.chart2 .tdleft2 {text-align:left; border-left:1px solid #bbbbbb;}
+table.chart2 .bleft {border-left:1px solid #bbbbbb;}
+table.chart2 .bright {border-right:1px solid #bbbbbb;}
+table.chart2 .tdright {text-align:right; padding:7px 5px 7px 5px;}
+table.chart2 tfoot th {text-align:center; font-weight:normal; padding:7px 5px 7px 5px; border-bottom:1px solid #bbbbbb;border-left:1px solid #bbbbbb; background:#f6f6f6;}
+table.chart2 tfoot td {text-align:center; padding:7px 5px 7px 5px; border-bottom:1px solid #bbbbbb; border-left:1px solid #bbbbbb;}
+table.chart2 .first {border-left:none;}
+table.chart2 .first2 {border-left:1px solid #bbbbbb; }
+table.chart2 tbody tr.tdgray {background:#f6f6f6;}
+
+
+/* 2012 컨텐츠 */
+.cont_2012 {padding:0 0 30px 0 ;}
+.cont_2012 dl {padding:20px 0 ;}
+.cont_2012 dl dt {font-weight:bold ;}
+.cont_2012 dl dd {padding:10px 0 15px 0 ; line-height:18px ;}
+.egs_concept {text-align:center ; padding-top:30px ;}
+
+.egs_ea {width:535px ; margin:0 auto ; ; padding-top:20px ; border-bottom:1px solid #d1d1d1 ;}
+.egs_ea li {padding-bottom:27px ;}
+.egs_total {padding:27px 0 ; text-align:center ;}
+.egs_obj {text-align:center ;}
+
+.cont_2012 h4 {padding-bottom:10px ;}
+.cont_2012 h5 {padding-bottom:20px ; background:url(/ENG/images/common/hub_arr.gif) no-repeat left 0 ; padding-left:20px ; font-size:16px ;}
+.cont_2012 .oil_list {padding-bottom:20px ; margin-left:10px ;}
+.cont_2012 .oil_list li {background:url(/images/business/d_red_arr.gif) no-repeat left 5px ; padding-left:10px ; line-height:18px ;}
+.cont_2012 .oil_list li strong {color:#ff6000 ;}
+
+.tank_tit {padding-bottom:5px ;}
+.oil_tb {border-collapse:collapse ; width:100% ; border-top:2px solid #adadad ;}
+.oil_tb tbody th {border-bottom:1px solid #c4c4c4 ; border-right:1px solid #c4c4c4 ;}
+.oil_tb tbody td {border-bottom:1px solid #c4c4c4 ; padding:10px ;}
+.oil_tb tbody tr.pink th {background:#fff3e8 ;}
+.oil_tb tbody tr.pink td {background:#fff3e8 ;}
+
+.opinet_2012 {width:100% ; height:485px ; background:url(/images/business/opinet_img.jpg) no-repeat 10px top ;}
+.opinet_2012 dl {margin-left:361px ; padding-top:0 ;}
+
+
+/* 담당자 */
+.new_officer {clear:both ; width:697px ; margin:0 auto ; padding-bottom:10px ; background:url(/images/common/officer_bg.gif) no-repeat ;}
+.new_officer table {border-collapse:collapse ; width:697px ;}
+.new_officer table caption {display:none ;}
+.new_officer table tbody tr {}
+.new_officer table tbody td {height:28px ; line-height:28px ; padding-left:10px ; text-align:left ;}
+.new_officer table tbody td strong {background:url(/images/common/officer_bull.gif) no-repeat left 5px ; padding-left:8px ;}
+.new_officer table tbody td.write_day {width:23%}
+.new_officer table tbody td.contact_team {text-align:right;}
+.new_officer table tbody td.contact_tel {width:28%}
+
+.new_officer_eng {clear:both ; width:697px ; margin:0 auto ; padding-bottom:20px ; background:url(/images/common/officer_bg.gif) no-repeat ;}
+.new_officer_eng table {border-collapse:collapse ; width:697px ;}
+.new_officer_eng table caption {display:none ;}
+.new_officer_eng table tbody tr {}
+.new_officer_eng table tbody td {height:28px ; line-height:28px ; padding-left:10px ; text-align:left ;}
+.new_officer_eng table tbody td strong {background:url(/images/common/officer_bull.gif) no-repeat left 5px ; padding-left:8px ;}
+
+/*Sustainable Management Performance table 여백처리*/
+.tb_sds01 {text-align:left; padding-bottom:10px;clear:both;}
+.tb_sds02 {clear:both ;}
+.tb_sds03 {text-align:left; padding-top:40px; padding-bottom:10px;clear:both;}
+.tb_sds04 {clear:both ;}
+.tb_sds05 {text-align:left; padding-top:40px; padding-bottom:10px; clear:both ; }
+.tb_sds07{text-align:left; padding-top:10px; clear:both ; }
+
+li {list-style-type:none;}
+.tabCon3 {width:710px; padding-top:20px}
+.tabCon3 ul {margin:7px;}
+.tabCon3 ul li {background:url('/images/directors/icon01.gif') no-repeat 0px 4px;padding-left:10px;margin-left:1px;margin-bottom:2px;margin-top:10px;}
+.tabCon3 ul li ul {margin-top:1px;}
+.tabCon3 ul li ul li{background:url('/images/directors/icon02.gif') no-repeat 0px 6px;padding-left:7px;margin-left:1px;margin-bottom:1px;margin-top:0;}
+.tabCon3 .tabtxt {width:670px; margin:8px 0px 0px 20px;}
+
+/* 2016년 6월 서브레이아웃 개편 */
+td.lnb_area {width:190px;vertical-align:top;}
+
+table.con_wrap {width:760px;}
+
+table.con_wrap .contents {width:720px;text-align: left;}
+table.con_wrap .contents p {word-break:normal;}
+table.con_wrap .contents table {table-layout:auto;}
+
+table.con_wrap table.sitemap_area {width:730px;} 
+table.con_wrap table.sitemap_area table table {width:200px;table-layout:auto;}
+table.con_wrap table.sitemap_area table table table {width:182px;}
+
+table.major_achi {border:1px solid #999;}
+table.major_achi tr {border-bottom:1px solid #999;}
+table.major_achi td {border-left:1px solid #999;}
+table.major_achi td:first-child {border-left:0;}
+
+table.con_search {width:auto;}
+
+div.boardbtm > div.leftdv > div.paging > a {width:auto;height:auto;margin:0;border:0;line-height:normal;color:#4b4b4b;vertical-align:middle;}
+div.boardbtm > div.leftdv > div.paging > span.pagenow {display:inline-block;padding-top:2px;vertical-align:middle;}
+
+
+
+
+

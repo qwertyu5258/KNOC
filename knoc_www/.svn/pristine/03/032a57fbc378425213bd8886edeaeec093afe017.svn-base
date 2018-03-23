@@ -1,0 +1,75 @@
+@charset "euc-kr";
+@import url('common.css');
+
+/*************************
+Type: Board style sheet 
+Date: 09/07/
+**************************/
+
+.paging {clear:both;margin:0px auto;letter-spacing:0.1em;}
+.paging .pagenow {font-weight:bold;color:#CE1202;}
+
+
+#boardsec {width:720px;padding-top:40px;margin:0px auto;}
+#boardsec .listtype {width:720px;margin:0px auto;border-top:2px solid #E96F03;text-align:center;}
+#boardsec .listtype th {height:30px;background:#FAFAFA;border-bottom:1px solid #C5C5C5;color:#636363;}
+#boardsec .listtype td {height:31px;background:url('/images/board/listbg.gif') repeat-x left bottom;}
+#boardsec .listtype td.subj {text-align:left;}
+#boardsec .listtype td.subway {text-align:left;}
+#boardsec .listtype td.td2 {text-align:padding-bottom:28px;}
+
+
+#boardsec .viewtype {width:720px;margin:0px auto;border-top:2px solid #E96F03;table-layout:fixed}
+#boardsec .viewtype th {height:30px;background:#fafafa;border-right:1px solid #D8D8D8;border-bottom:1px solid #D8D8D8;color:#636363;}
+#boardsec .viewtype th.th1 {padding-left:15px;text-align:left;}
+#boardsec .viewtype th.th2 {border-left:1px solid #D8D8D8;}
+#boardsec .viewtype td {height:31px;background-color:#ffffff;border-bottom:1px solid #D8D8D8;text-align:center;}
+#boardsec .viewtype td.td1 {padding-left:5px;text-align:left;}
+#boardsec .viewtype td.td12 {padding:5px; 0px; 5px; 0px;text-align:left;}
+#boardsec .viewtype td.td1 img  {vertical-align:middle;margin-right:5px;}
+#boardsec .viewtype td.td1 .gab {padding:0px 5px 0px 5px;}
+#boardsec .viewtype td.cnts {padding:18px;text-align:left;word-break:break-all;}
+#boardsec .viewtype td.cnts1 {padding:5px 0px 5px 5px;text-align:left;}
+#boardsec .viewtype .editortd {padding-bottom:5px;background:#F8F8F8;border-bottom:1px solid #D8D8D8;}
+#boardsec .viewtype td .filedv1 {padding-top:7px;}
+#boardsec .viewtype td .filedv1 img {margin-left:3px;}
+#boardsec .viewtype td .filedv2 {padding-top:10px;padding-bottom:7px;}
+#boardsec .viewtype td .filedv2 .btnsp {margin-left:3px;}
+#boardsec .viewtype td .filedv2 .btnsp img {margin-right:-0.3px;}
+
+#boardsec .replesec {clear:both;width:720px;border-bottom:1px solid #D8D8D8;overflow:auto;}
+#boardsec .replesec .replul li {height:25px;padding-top:6px;background:url('/images/board/listbg.gif') repeat-x left bottom;}
+#boardsec .replesec .replul li .rpname {float:left;padding-left:20px;padding-right:10px;}
+#boardsec .replesec .replul li .rptxt  {float:left;padding-top:1px;}
+#boardsec .replesec .replul li img {vertical-align:middle;}
+#boardsec .replesec .replwrite {clear:both;width:700px;padding:10px;background:#FAFAFA;overflow:auto;}
+	.replesec .replwrite p {display:inline;padding-right:17px;}
+	.replesec .replwrite .reptxt {clear:both;width:700px;padding-top:8px;}
+	.replesec .replwrite .reptxt .repdvleft {float:left;padding-right:3px;}
+	.replesec .replwrite .reptxt .repdvleft textarea {width:630px;height:59px;}
+	.replesec .replwrite .reptxt .repdvright {float:right;}
+
+#boardsec .boardbtm {clear:both;padding-top:10px;}
+#boardsec .boardbtm .leftdv  {float:left;padding-left:270px;}
+#boardsec .boardbtm .rightdv {float:right;padding-right:5px;}
+
+#boardsec .viewtype2 {clear:both;width:720px;margin:0px auto;}
+#boardsec .viewtype2 th, #boardsec .viewtype2 td {height:30px;text-align:left;}
+#boardsec .viewtype2 th {padding-left:20px;background:#FAFAFA url('/images/board/listbg.gif') repeat-x left bottom;border-right:1px solid #D8D8D8;color:#636363;}
+#boardsec .viewtype2 th img {vertical-align:middle;}
+#boardsec .viewtype2 td {padding-left:8px;background:url('/images/board/listbg.gif') repeat-x left bottom;}
+
+#boardsec .btnsec {padding-top:15px;text-align:right;}
+
+#schsec {clear:both;width:720px;padding-top:28px;margin:0px auto;text-align:center;}
+#schsec fieldset.schset select {display:inline;width:65px;margin-top:-2px;_margin-top:0px;_margin-right:-3px;vertical-align:middle;}
+	*:first-child+html #schsec fieldset.schset select {margin-top:0px;margin-right:-3px;}
+#schsec fieldset.schset input  {display:inline;width:130px;margin-bottom:2px;vertical-align:middle;}
+#schsec fieldset.schset area  {display:inline;width:130px;margin-bottom:2px;vertical-align:middle;}
+#schsec fieldset.schset .btndv {display:inline;}
+#schsec fieldset.schset .btndv img {margin-bottom:2px;vertical-align:middle;}
+
+#password {width:260px;padding-top:40px;margin:0px auto;}
+#password .pagetype {width:260px;margin:0px auto;border-top:2px solid #E96F03;text-align:center;}
+#password .pagetype th {height:30px;background:#FAFAFA;border-bottom:1px solid #C5C5C5;color:#636363;}
+#password .pagetype td {padding-top:10px;}

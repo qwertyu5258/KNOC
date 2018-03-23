@@ -1,0 +1,55 @@
+@charset "euc-kr";/* CSS Document */
+
+
+/* body------------------------------ */
+	body {
+	margin-left:0px;
+	margin-top:0;
+    font-family: Arial;
+    font-size: 9pt;
+    color:#666;
+    line-height:150%;
+	text-align:left;
+	
+     }
+		
+		
+/* 傅农------------------------------ */
+
+	/*A:link {TEXT-DECORATION: none; color:#666666;}
+	A:active {COLOR:#0370c6; text-decoration:underline  }
+	A:visited {COLOR:#4b4b4b; TEXT-DECORATION: none;}
+	A:hover {COLOR:#DD0000; text-decoration:underline}*/
+	
+	
+/* 能刨明 康开------------------------------ */
+	.loca_text { color:#e05003; }
+	
+	.td_sbumenu02{ padding-left:20px; line-height:110%;	}
+	.sub_bull {	list-style-type: square; }
+	
+	.text_title { color:#e05003; font-weight:bold }
+	.text_conttitle { color:#f7941d; font-weight:bold }
+	.text_conttitle2 { color:#009eec; font-weight:bold }
+
+/* 钎------------------------------ */
+	.table_title { border-top:#e05003 solid 1px; border-bottom:#e05003 solid 1px; background:#fcf5f5; color:#e05003; font-weight:bold; }
+	.table_titletbr { border-top:#e05003 solid 1px; border-bottom:#e05003 solid 1px; border-right:#e05003 solid 1px; background:#fcf5f5; color:#e05003; font-weight:bold; }
+	.table_titletop { border-top:#e05003 solid 1px; background:#fcf5f5; color:#e05003; font-weight:bold;}
+	.table_titlebg { border-right:#e05003 solid 1px; background:#fcf5f5; color:#e05003; font-weight:bold;}
+	.table_titlebottom { border-bottom:#e05003 solid 1px; background:#fcf5f5; color:#e05003; font-weight:bold;}
+	.table_redbottom { border-bottom:#e05003 solid 2px;}
+	
+	.table_bottom { border-bottom:#cccccc solid 1px;}
+	.table_total { border-bottom:#cccccc solid 2px; background:#fcf5f5; font-weight:bold; }
+	.table_right { border-bottom:#cccccc solid 1px; border-right:#cccccc solid 1px; }
+	.table_left { border-bottom:#cccccc solid 1px; border-left:#cccccc solid 1px; }
+	.table_topbottom { border-top:#f69679 solid 2px; border-bottom:#f69679 solid 2px; color:#e05003; font-weight:bold; }
+	
+	.table2_bottom { border-bottom:#cccccc solid 1px; font-size: 8pt; line-height:130%; }
+	.table2_right { border-bottom:#cccccc solid 1px; border-right:#cccccc solid 1px; font-size: 8pt; line-height:130%; }
+	.table2_tbr { border-top:#cccccc solid 1px; border-bottom:#cccccc solid 1px;  border-right:#cccccc solid 1px; font-size: 8pt; line-height:130%; }
+	.table2_tb { border-top:#cccccc solid 1px; border-bottom:#cccccc solid 1px; font-size: 8pt; line-height:130%; }
+
+
+	

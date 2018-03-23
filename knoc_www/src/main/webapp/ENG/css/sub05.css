@@ -1,0 +1,172 @@
+@charset "euc-kr";
+
+
+/* body------------------------------ */
+	body {
+	margin-left:0px;
+	margin-top:0;
+    font-family: Arial, "dotum";
+    font-size: 9pt;
+    color:#666;
+    line-height:150%;
+	text-align:left;
+	
+     }
+		
+		
+/* 링크------------------------------ */
+
+	/*A:link {TEXT-DECORATION: none; color:#666;}
+	caption,label, legend,address, #accessibity {display: none;}
+
+	A:active {COLOR:#0370c6; text-decoration:underline  }
+	A:visited {COLOR:#4b4b4b; TEXT-DECORATION: none;}
+	A:hover {COLOR:#DD0000; text-decoration:underline}*/
+	
+	.loca_text{
+	 color:#e05003;
+	}
+	
+	.td_sbumenu02{
+	padding-left:25px;
+	line-height:20px;
+	}.sub_bull {
+	list-style-type: square;
+}
+
+/*sub05 ----------------------------------*/
+
+.contents {width:720px;text-align:left;}
+
+#boardsec {width:720px;padding-top:40px;margin:0px auto;}
+
+
+#boardsec .viewtype_noline {width:720px;height:40px;margin:0px auto; table-layout:fixed;text-align:left;h}
+#boardsec .viewtype_noline td {text-align:center;font-weight:bold;padding-bottom:5px;height:25px;}	
+#boardsec .viewtype_noline td .mov  {
+	padding:5px 0px 0px 7px;
+	width:210px;
+	height:31px;
+	text-align:left;
+	background-image: url(../images/board/mov_bg.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#boardsec .viewtype_noline td .movtype  {height:59px;text-align:left;valign:top;padding:0px 0px 0px 10px;}
+#boardsec .viewtype_noline td .movtype2  {height:150px;text-align:left;valign:top;font-weight:100;padding:0px 0px 0px 10px;}
+#boardsec .viewtype_noline .imgbg {
+	width:168px;
+	height:105px;
+	background-image: url(../images/board/gal_back.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+	padding-top: 7px;
+}
+#boardsec .viewtype_noline .imgbg > img {max-width:160px;height:98px;}
+
+
+#boardsec .boardbtm {clear:both;padding-top:10px;}
+#boardsec .boardbtm:after { content:""; display:block; clear:both; }
+#boardsec .boardbtm .leftdv  {
+	float:left;
+	padding-left:320px;
+}
+
+.paging {clear:both;margin:0px auto;letter-spacing:0.1em;}
+.paging .pagenow {font-weight:bold;color:#CE1202;}
+
+
+/* 표----------------------------------*/
+
+.table_style1 {
+	border-top:#E96F03 solid 1px;
+}
+.table_style1 td {
+	padding: 5px 0 5px 10px
+}
+.table_style1 .border_BR {
+	border-bottom:#D8D8D8 solid 1px;
+	border-right:#D8D8D8 solid 1px;
+	background-color: #fcf5f5;
+}
+.table_style1 .border_R {
+	border-right:#D8D8D8 solid 1px;
+	background-color: #fcf5f5;
+}
+.table_style1 .border_B {border-bottom:#D8D8D8 solid 1px;}
+.table_style1 .border_bot{border-bottom:#E96F03 solid 1px;}
+.table_style1 .contury {
+	border-bottom:#E96F03 solid 1px;
+	border-right:#D8D8D8 solid 1px;
+	font-weight: bold;
+	color: #e05003;
+}
+
+
+.contents .bullet_stitle {
+	font-size: 13px;
+	font-weight: bold;
+}
+.bullet_stitle img {
+	padding-bottom: 2px;
+	padding-right: 5px;
+}
+.red_text {
+	color: #ff5353;
+}
+.R_pad20 {
+	padding-right: 20px;
+}
+
+
+#boardsec .listtype_pwd {width:290px;margin:0px auto;border-top:2px solid #E96F03; border-bottom:2px solid #ffffff; text-align:center;}
+#boardsec .listtype_pwd th {height:30px;background:#F1F1F1;border-bottom:1px solid #C5C5C5;color:#636363;}
+#boardsec .listtype_pwd td {height:31px;background:url('/images/board/listbg.gif') repeat-x left bottom;}
+#boardsec .listtype_pwd td.subj {text-align:left;}
+#boardsec .listtype_pwd imgpa {padding:7px 0px 5px 0px;text-align:left;}
+#boardsec .listtype_pwd td.subj2 {padding:7px 0px 5px 0px;text-align:left;}
+#boardsec .listtype_pwd td.subway {text-align:left;}
+#boardsec .listtype_pwd td.td2 {text-align:padding-bottom:28px;}
+
+/*sub0내용*/
+.org06_1 {
+	background-image: url(../images/sub06/sub06_1_3_1_bo01_1.gif);
+	background-repeat: no-repeat;
+	text-align: left;
+	height: 35px;
+	font-color: #787878;
+	font-size:10px;
+	padding-left:7px;
+}
+.org06_1line {
+	background-image: url(../images/sub06/sub06_1_3_1_img_line.gif);
+	background-repeat: no-repeat-x;
+	background-position: center top;
+	text-align: center;
+	padding-top: 35px;
+}
+
+
+
+.eng_site {width:720px ; margin:0 auto ;}
+.tab {width:100%; height:24px; padding:0px; background:url('/images/directors/tabback.gif') repeat-x left bottom;}
+.tab li {float:left; height:24px; margin:0px 3px 0px 0px; padding:0px;}
+
+.eng_site h5 {font-size:1.0em; text-align:left; clear:both; padding:0px 0px 0px 10px; background:url('/images/directors/icon01.gif') no-repeat left 4px;}
+.link {width:720px; overflow:hidden; margin-bottom:30px;}
+.link ul {width:710px; padding-left:10px;}
+.link ul li {width:340px; float:left; padding-left:9px; margin-top:5px; background:url('/images/directors/icon02.gif') no-repeat 0px 6px; text-align:left ;}
+
+
+
+
+
+
+
+
+
+
+
+
+

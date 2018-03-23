@@ -1,0 +1,96 @@
+/* ----------------body ---------------------- */
+body {
+	scrollbar-face-color:#e7e7e7; 
+	scrollbar-highlight-color:#d0d0d0; 
+	scrollbar-3dlight-color:#e7e7e7; 
+	scrollbar-shadow-color:#e7e7e7; 
+	scrollbar-darkshadow-color:#dadada; 
+	scrollbar-arrow-color:#9498a0; 
+	scrollbar-track-color:#e7e7e7;
+	margin:0 ;
+}
+
+td{
+	font-family : "µ¸¿ò", "±¼¸²", "Seoul", "arial", "Verdana", "Helvetica"; 
+	font-size: 12px;
+	color: #666666; 
+	line-height: 16px;}
+	img{ border:0;
+}
+
+A:link {color:#666666; text-decoration:none;} 
+A:visited {color:#666666; text-decoration:none;} 
+A:active {color:#666666; text-decoration:none;} 
+A:hover {color:#fb842c; text-decoration:underline;}
+
+A:link.help_pop {color:#0165ba; text-decoration:underline;} 
+A:visited.help_pop {color:#0165ba; text-decoration:underline;} 
+A:active.help_pop {color:#0165ba; text-decoration:underline;} 
+A:hover.help_pop {color:#fb842c; text-decoration:underline;}
+
+
+/*	--- list_table ---	*/
+.common_list_table{
+	padding:0;
+	border-top:1px solid #7fa1ba;
+	border-bottom:2px solid #7fa1ba;
+	margin:0 0 10px 0;
+    width:675px;
+}
+.common_list_table th{
+	border-bottom:2px solid #7fa1ba;
+	font-size:11px;
+	color:#4b677f;
+	padding:3px 0 0 0;
+}
+.common_list_table td{
+	padding:5px 3px 3px 3px;
+	text-align:center;
+	border-bottom:1px dashed #c7c7c7;
+}
+.common_list_table td span{
+	font-size:11px;
+}
+.common_list_table td.t_align{
+	text-align:left;
+}
+.common_list_table td.t_align a:hover{
+	color:#00549a;text-decoration:none;
+}
+
+.common_list_table td img.event_img{
+	border:3px dashed #c7c7c7;
+	margin-bottom:2px;
+}
+
+/* ºñ¹Ð¹øÈ£ ÆË¾÷ */
+.pop_text_bg{
+	background:url(/neoboard_oracle/images/common/popup_text_bg.gif);
+	width:330px;
+	height:63px;
+}
+.pop_text_title{
+	color:#556d82;
+	font-weight:bold;
+	font-size:11px;
+	padding:0 7px 0 38px;
+}
+.input_pop {
+    BORDER: #dfe0d3 1px solid; 
+    COLOR: #707070; 
+    height:18px;
+    font-size:11px;
+    font-family:"Dotum";
+ 	line-height:1.6;
+}
+.pop_bg{
+	background:url(/neoboard_oracle/images/common/popup_top_bg.gif);
+	width:360px;
+	height:47px;
+	margin-left:0px;
+	margin-top:0px;
+}
+.popup01_title{
+	padding:16px 0 0 15px;
+}
+       	       	

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <Context> 
+    <Resource name="jdbc/oracle_knoc" auth="Container" type="javax.sql.DataSource" 
+    maxActive="100" maxIdle="30" maxWait="10000" 
+    username="knoc" password="knoc_mast" driverClassName="oracle.jdbc.driver.OracleDriver" 
+    url="jdbc:oracle:thin:@211.35.19.139:1521:orcl"/> 
+</Context>  -->
+
+<Context> 
+
+    <Resource name="jdbc/oracle_knoc" auth="Container" type="javax.sql.DataSource" 
+    maxActive="100" maxIdle="30" maxWait="10000" 
+    username="knoc_db" password="knoc_mast" driverClassName="oracle.jdbc.driver.OracleDriver" 
+    url="jdbc:oracle:thin:@localhost:1521:knoc"/> 
+
+</Context> 
