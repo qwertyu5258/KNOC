@@ -1,0 +1,34 @@
+@charset "euc-kr" ;
+@import url(master.css);
+
+body {background:#fff ;}
+#wrap {width:600px ;}
+#header {}
+#contents {padding:30px 10px 10px 10px ; line-height:20px ; border-right:1px solid #ccc ;}
+/* 아이디 */
+.user_id span.point {font-size:11px ; color:#268e95 ; padding-left:5px ;}
+
+/* 이미지 조사 */
+.brand_image {padding-top:20px ;}
+p.simbol {float:left ; width:140px ; padding-bottom:20px ;}
+.brand_image p.t_02 {padding-left:10px ; padding-bottom:20px ;}
+
+/* 선호도 조사 */
+.preference p.t_02 {padding-left:10px ; padding-bottom:20px ;}
+
+
+
+
+/* 공통 */
+label {padding-left:5px ; padding-right:10px ;}
+.s_id {width:240px ; height:13px ; margin-left:7px ;}
+.s_etc {width:240px ; height:13px ;}
+.s_cont {width:100% ; height:13px ;}
+.area {width:100% ; height:100px ;}
+h3 {font-size:16px ; color:#268e95 ; padding-bottom:10px ; padding-top:10px ;}
+h5 {font-size:12px ; font-weight:bold ; clear:both ;}
+h6 {font-size:12px ; font-weight:normal ; padding-left:10px ;}
+.t_01 {padding-bottom:20px ;}
+.t_01_img {padding-top:25px ;}}
+.etc {display:block ;}
+.ex {font-weight:normal ; color:#490000 ;}
