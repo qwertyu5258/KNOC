@@ -26,11 +26,6 @@
 	
 	pp.setPage(nowpage);
 	
-	System.out.println("keyoword::"+key_word);
-	System.out.println("pp.getNPage()::"+pp.getNPage());
-	System.out.println("pp.getNPagesize()::"+pp.getNPageSize());
-	application.log("로그테스트");
-	application.log("로그테스트22");
 	pp.setPageSize("10");
 	pp.setPageUrl("");
 	
