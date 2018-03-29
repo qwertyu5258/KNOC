@@ -79,7 +79,24 @@
 				</h3>
 			</div>
 		
-		
+			<br><br>
+				<table>
+						<tr>
+									<th><input type="button" value="Submit" class="btn btn-default" style="width:99.5%"></th>
+									<th><input type="button" value="확인" class="btn btn-default" style="width:99.5%"></th>
+									<th><input type="button" value="확인" class="btn btn-default" style="width:99.5%"></th>
+									<th><input type="button" value="확인" class="btn btn-default" style="width:99.5%"></th>
+									<th><input type="button" value="확인" class="btn btn-default" style="width:99.5%"></th>
+								</tr>
+								<tr>
+									<th><input type="button" value="확인" class="btn btn-default" style="width:99.5%"></th>
+									<th><input type="button" value="확인" class="btn btn-default" style="width:99.5%"></th>
+									<th><input type="button" value="확인" class="btn btn-default" style="width:99.5%"></th>
+									<th><input type="button" value="확인" class="btn btn-default" style="width:99.5%"></th>
+									<th><input type="button" value="확인" class="btn btn-default" style="width:99.5%"></th>
+								</tr>
+						</table>			
+			
 		
 			<div id="boardsec">
 				<p align="center" class="pb20">
