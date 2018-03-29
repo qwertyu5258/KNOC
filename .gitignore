@@ -2,3 +2,4 @@
 knoc_www/target/m2e-wtp/web-resources/META-INF/maven/inplusweb/knoc_www/pom.properties
 knoc_www/target/m2e-wtp/web-resources/META-INF/maven/inplusweb/knoc_www/pom.properties
 knoc_www/target/m2e-wtp/web-resources/META-INF/maven/inplusweb/knoc_www/pom.properties
+*.properties
