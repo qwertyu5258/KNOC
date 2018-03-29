@@ -12,7 +12,6 @@
 	class="kr.co.knoc.search.SearchManager" />
 <jsp:useBean id="PropertyMa" scope="page"
 	class="com.neoboard.PropertyManager" />
-
 <%
 	request.setCharacterEncoding("euc-kr");
 %>
@@ -26,66 +25,25 @@
 	application.setAttribute("gNavMenuDepth4", "00");
 	/*'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''*/
 %>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 <%
 	String key_word = etcutil.strBlockSpecialTags(etcutil.checkNull(request.getParameter("search")), "8859_1");
 	String nowpage = etcutil.strBlockSpecialTags(etcutil.checkNull(request.getParameter("page")));
-	String boardname=null;
-	
-	System.out.println("============list.jsp : 1===============");
-	System.out.println("Log:"+"key_word:"+key_word);
-	System.out.println("Log:"+"nowpage:"+nowpage);
-	System.out.println("Log:"+"boardname:"+boardname);
-	System.out.println("===========================");
-	
-	
-	
-	if (request.getParameter("key_word") != null) {
-		key_word = request.getParameter("key_word");
-	}
-	if (request.getParameter("boardname") != null) {
 
-		boardname = request.getParameter("boardname");
-
-	}
 	pp.setPage(nowpage);
-
 	pp.setPageSize("10");
 	pp.setPageUrl("");
+	ArrayList al = SearchMa.getSearchList(key_word, pp.getNPage(), pp.getNPageSize());
 
-	System.out.println("=============2==============");
-	System.out.println("Log:"+"key_word:"+key_word);
-	System.out.println("Log:"+"boardname:"+boardname);
-	System.out.println("Log:"+"pp.getPage:"+pp.getPage());
-	System.out.println("Log:"+"pp.getpageSize:"+pp.getPageSize());
-	System.out.println("Log:"+"pp.getpageurl:"+pp.getPageUrl());
-	System.out.println("Log:"+"pp.getNpage:"+pp.getNPage());
-	System.out.println("Log:"+"pp.getNpageSize:"+pp.getNPageSize());
-	System.out.println("===========================");
-	
-
-		ArrayList al = SearchMa.getSearchList(key_word, pp.getNPage(), pp.getNPageSize());
-		if (request.getParameter("boardname") != null) {
-		al = SearchMa.getSearchList2(key_word, pp.getNPage(), pp.getNPageSize(),boardname);
-	}
-	
-	//count 도 재호출시 변경!!!!!!!!!
-	
 	int count = SearchMa.getSearchListCount(key_word);
-	
-	
-	System.out.println("=============3==============");
-	System.out.println("Log:"+"count:"+count);
-	
-	if (count == 0) {
-		count = SearchMa.getSearchListCount2(key_word);
-	}
-	
 	int seq = count - (pp.getNPage() - 1) * pp.getNPageSize();
-
-	System.out.println(count);
-	System.out.println(seq);
-	//count 가 안잡힘
-
 	/**
 	 * 2016.3.21 JSM
 	 * 보안약점 조치
@@ -120,66 +78,16 @@
 					<img src="/images/search/ttl_search.gif" alt="사이트 검색" />
 				</h3>
 			</div>
-
-			<table style="width: 100%; height: 80px; boarder-spacing: 0px">
-				<tr>
-					<th style="height: 40px"><button onclick="searchboard('전체')"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%; margin-bottom: 2px">
-							<p style="text-size: 100%; font-size: 20px">
-								전 체(<%=count%>)
-							</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="searchboard('활동마당')"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%; margin-bottom: 2px">
-							<p style="text-size: 100%; font-size: 20px;">활동마당</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="searchboard('포토뉴스')"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%; margin-bottom: 2px">
-							<p style="text-size: 100%; font-size: 20px">포토뉴스</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="searchboard('임원출장정보')"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%; margin-bottom: 2px">
-							<p style="text-size: 100%; font-size: 20px">임원출장정보</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="searchboard('보도자료')"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%; margin-bottom: 2px">
-							<p style="text-size: 100%; font-size: 20px">보도자료</p>
-						</button></th>
-
-				</tr>
-				<tr style="height: 40px">
-					<th style="height: 40px"><button onclick="searchboard('고객상담실')"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%;">
-							<p style="text-size: 100%; font-size: 20px">고객상담실</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="aaa()"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%;">
-							<p style="text-size: 100%; font-size: 20px">.</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="aaa()"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%;">
-							<p style="text-size: 100%; font-size: 20px">.</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="aaa()"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%;">
-							<p style="text-size: 100%; font-size: 30px">.</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="aaa()"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%;">
-							<p style="text-size: 100%; font-size: 30px">.</p>
-						</button></th>
-				</tr>
-
-
-			</table>
-
-
+		
+		
+		
 			<div id="boardsec">
 				<p align="center" class="pb20">
 					홈페이지에서 <span class="cDD0902_b">‘<%=key_word%>'
 					</span>에 대해
-					<%=count%>개의 문서를 찾았습니다 1
+					<%=count%>개의 문서를 찾았습니다
 				</p>
+							
 				<table cellspacing="0" cellpadding="0" class="listtype"
 					summary="해당게시판은 말씀자료의 목록을 보여줍니다">
 					<caption>해당게시판 목록</caption>
@@ -190,10 +98,22 @@
 						<col width="85px" />
 					</colgroup>
 					<thead>
-						<form name="bForm" method="post" action="list.jsp">
+						<form name="bForm" method="post" action="list2.jsp">
 							<legend>검색 목록</legend>
-							<input type=hidden name=page value="<%=nowpage%>"> <input
-								type="hidden" name="no" value="">
+							<input type=hidden name=page value="<%=nowpage%>" /> <input
+								type="hidden" name="no" value="" /> <select id="select1"
+								name="select1" onchange="itemChange()">
+								<option>--전체--</option>
+								<option>활동마당</option>
+								<option>포토뉴스</option>
+							</select>
+						
+						
+
+						
+							<input type="submit" value="확인" class="btn btn-default">
+
+
 							<tr>
 								<th scope="row">번호</th>
 								<th scope="row">제목</th>
@@ -201,19 +121,74 @@
 								<th scope="row">등록일<%=pp.getNPage()%></th>
 							</tr>
 					</thead>
-					<%
-						if (count == 0) {
-					%>
 					<tbody>
+						<%
+							//추가분 
+
+							count = 1;
+							//
+
+							if (count == 0) {
+						%>
 						<tr>
 							<td align=center colspan=4>등록된 자료가 없습니다.</td>
 						</tr>
+
+
 						<%
 							} else {
-								Iterator iter = al.iterator();
-								while (iter.hasNext()) {
-									SearchBean sb = (SearchBean) iter.next();
+
+								//추가분
+								if (request.getParameter("select1") != null) {
+
+									String parameter1 = request.getParameter("select1");
+									out.println(parameter1);
+									String tmp1 = "활동마당";
+
+									Boolean tmp2 = parameter1.equals(tmp1);
+									out.println(tmp2);
+								}
+
+								for (int i = 0; i < 5; i++) {
 						%>
+
+						<script>
+							var option_select = $("<option>" + '추가분111'
+									+ "</option>");
+							$('#select1').append(option_select);
+						</script>
+
+						<%
+							}
+								ArrayList<String[]> list2 = new ArrayList<String[]>();
+								list2.add(new String[]{"1", "봄", "사회공헌>활동마당", "2017-02-14"});
+								list2.add(new String[]{"2", "여름", "사회공헌>활동마당", "2017-02-14"});
+								list2.add(new String[]{"3", "가을", "사회공헌>활동마당", "2017-02-14"});
+								list2.add(new String[]{"4", "겨울", "사회공헌>활동마당", "2017-02-14"});
+
+								Iterator iter = al.iterator();
+
+								Iterator iter2 = list2.iterator();
+
+								out.println(iter2.hasNext());
+
+								while (iter.hasNext()) {
+
+									SearchBean sb = (SearchBean) iter.next();
+
+									//추가분			
+									String tmpBoardname = "tmp";
+									tmpBoardname = "포토뉴스";
+
+									if (PropertyMa.getBoardName(sb.getBoardid()) != null) {
+										tmpBoardname = PropertyMa.getBoardName(sb.getBoardid());
+									}
+
+									tmpBoardname = "포토뉴스";
+
+									if (tmpBoardname.equals(PropertyMa.getBoardName(sb.getBoardid())) == false)
+						%>
+
 						<tr>
 							<td><%=seq%></td>
 							<td class="subj"><a
@@ -228,16 +203,15 @@
 						%>
 					</tbody>
 				</table>
+
 				<!--// paging: start //-->
 				<stl:pager pageName="pp" prevPage="prevPage" nextPage="nextPage"
 					prevBlock="prevBlock" nextBlock="nextBlock" pages="pages"
 					firstPage="firstPage" lastPage="lastPage" blockSize="10"
 					totalCount="<%=count%>" />
-				<div class="paging pt10 ctxt">
+				<div class="pt10 ctxt">
 					<a href="<%=prevBlock.getAnchor("&search=" + key_word)%>"><img
-						src="/images/board/preview.gif" alt="처음" /></a>
-						
-						 <a
+						src="/images/board/preview.gif" alt="처음" /></a> <a
 						href="<%=prevPage.getAnchor("&search=" + key_word)%>"><img
 						src="/images/board/ppreview.gif" alt="이전" /></a>
 					<%
@@ -279,6 +253,7 @@
 				</div>
 				<!--// paging: end //-->
 			</div>
+			</form>
 		</div>
 	</div>
 </div>
@@ -286,23 +261,11 @@
 <%@include file="/include/comfooter.jsp"%><!--// footer: start //-->
 <!--// footer: end //-->
 </div>
+
 </body>
 
 <script>
-	function aaa(boardname) {
-
-		window.location.href="http://localhost:8080/search/list.jsp?boardname="+encodeURI(boardname)+"&key_word="+encodeURI("<%=key_word%>");
-
-	}
 	
-	function searchboard(boardname) {
-
-		window.location.href="http://localhost:8080/search/list.jsp?boardname="+encodeURI(boardname)+"&key_word="+encodeURI("<%=key_word%>");
-	}
-
-	function search2() {
-
-		alert('aaa');
-	}
 </script>
+
 </html>

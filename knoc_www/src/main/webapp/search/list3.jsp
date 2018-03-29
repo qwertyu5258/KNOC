@@ -12,7 +12,6 @@
 	class="kr.co.knoc.search.SearchManager" />
 <jsp:useBean id="PropertyMa" scope="page"
 	class="com.neoboard.PropertyManager" />
-
 <%
 	request.setCharacterEncoding("euc-kr");
 %>
@@ -26,60 +25,24 @@
 	application.setAttribute("gNavMenuDepth4", "00");
 	/*'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''*/
 %>
+
 <%
 	String key_word = etcutil.strBlockSpecialTags(etcutil.checkNull(request.getParameter("search")), "8859_1");
 	String nowpage = etcutil.strBlockSpecialTags(etcutil.checkNull(request.getParameter("page")));
-	String boardname=null;
-	
-	System.out.println("============list.jsp : 1===============");
-	System.out.println("Log:"+"key_word:"+key_word);
-	System.out.println("Log:"+"nowpage:"+nowpage);
-	System.out.println("Log:"+"boardname:"+boardname);
-	System.out.println("===========================");
-	
-	
-	
-	if (request.getParameter("key_word") != null) {
-		key_word = request.getParameter("key_word");
-	}
-	if (request.getParameter("boardname") != null) {
 
-		boardname = request.getParameter("boardname");
-
-	}
 	pp.setPage(nowpage);
 
 	pp.setPageSize("10");
 	pp.setPageUrl("");
 
-	System.out.println("=============2==============");
-	System.out.println("Log:"+"key_word:"+key_word);
-	System.out.println("Log:"+"boardname:"+boardname);
-	System.out.println("Log:"+"pp.getPage:"+pp.getPage());
-	System.out.println("Log:"+"pp.getpageSize:"+pp.getPageSize());
-	System.out.println("Log:"+"pp.getpageurl:"+pp.getPageUrl());
-	System.out.println("Log:"+"pp.getNpage:"+pp.getNPage());
-	System.out.println("Log:"+"pp.getNpageSize:"+pp.getNPageSize());
-	System.out.println("===========================");
-	
+	//ok
 
-		ArrayList al = SearchMa.getSearchList(key_word, pp.getNPage(), pp.getNPageSize());
-		if (request.getParameter("boardname") != null) {
-		al = SearchMa.getSearchList2(key_word, pp.getNPage(), pp.getNPageSize(),boardname);
-	}
-	
-	//count 도 재호출시 변경!!!!!!!!!
-	
+	ArrayList al = SearchMa.getSearchList2(key_word, pp.getNPage(), pp.getNPageSize());
+
+	System.out.println(al);
+	//test
+
 	int count = SearchMa.getSearchListCount(key_word);
-	
-	
-	System.out.println("=============3==============");
-	System.out.println("Log:"+"count:"+count);
-	
-	if (count == 0) {
-		count = SearchMa.getSearchListCount2(key_word);
-	}
-	
 	int seq = count - (pp.getNPage() - 1) * pp.getNPageSize();
 
 	System.out.println(count);
@@ -120,65 +83,32 @@
 					<img src="/images/search/ttl_search.gif" alt="사이트 검색" />
 				</h3>
 			</div>
-
-			<table style="width: 100%; height: 80px; boarder-spacing: 0px">
+			<table style="padding:1px">
 				<tr>
-					<th style="height: 40px"><button onclick="searchboard('전체')"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%; margin-bottom: 2px">
-							<p style="text-size: 100%; font-size: 20px">
-								전 체(<%=count%>)
-							</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="searchboard('활동마당')"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%; margin-bottom: 2px">
-							<p style="text-size: 100%; font-size: 20px;">활동마당</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="searchboard('포토뉴스')"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%; margin-bottom: 2px">
-							<p style="text-size: 100%; font-size: 20px">포토뉴스</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="searchboard('임원출장정보')"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%; margin-bottom: 2px">
-							<p style="text-size: 100%; font-size: 20px">임원출장정보</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="searchboard('보도자료')"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%; margin-bottom: 2px">
-							<p style="text-size: 100%; font-size: 20px">보도자료</p>
-						</button></th>
+					<th><img src="/images/search/btn_searchsub.png" style="width: 100%;"></th>
+					<th><img src="/images/search/btn_searchsub.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub.png" style="width: 100%" /></th>
 
 				</tr>
-				<tr style="height: 40px">
-					<th style="height: 40px"><button onclick="searchboard('고객상담실')"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%;">
-							<p style="text-size: 100%; font-size: 20px">고객상담실</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="aaa()"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%;">
-							<p style="text-size: 100%; font-size: 20px">.</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="aaa()"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%;">
-							<p style="text-size: 100%; font-size: 20px">.</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="aaa()"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%;">
-							<p style="text-size: 100%; font-size: 30px">.</p>
-						</button></th>
-					<th style="height: 40px"><button onclick="aaa()"
-							style="background: url(/images/btn_searchsub3.png); width: 99%; height: 99%;">
-							<p style="text-size: 100%; font-size: 30px">.</p>
-						</button></th>
-				</tr>
+					<tr>
+					<th><img src="/images/search/btn_searchsub3.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub3.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub3.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub3.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub3.png" style="width: 100%" /></th>
 
+				</tr>
 
 			</table>
-
+	
 
 			<div id="boardsec">
 				<p align="center" class="pb20">
 					홈페이지에서 <span class="cDD0902_b">‘<%=key_word%>'
 					</span>에 대해
-					<%=count%>개의 문서를 찾았습니다 1
+					<%=count%>개의 문서를 찾았습니다
 				</p>
 				<table cellspacing="0" cellpadding="0" class="listtype"
 					summary="해당게시판은 말씀자료의 목록을 보여줍니다">
@@ -235,9 +165,7 @@
 					totalCount="<%=count%>" />
 				<div class="paging pt10 ctxt">
 					<a href="<%=prevBlock.getAnchor("&search=" + key_word)%>"><img
-						src="/images/board/preview.gif" alt="처음" /></a>
-						
-						 <a
+						src="/images/board/preview.gif" alt="처음" /></a> <a
 						href="<%=prevPage.getAnchor("&search=" + key_word)%>"><img
 						src="/images/board/ppreview.gif" alt="이전" /></a>
 					<%
@@ -287,22 +215,4 @@
 <!--// footer: end //-->
 </div>
 </body>
-
-<script>
-	function aaa(boardname) {
-
-		window.location.href="http://localhost:8080/search/list.jsp?boardname="+encodeURI(boardname)+"&key_word="+encodeURI("<%=key_word%>");
-
-	}
-	
-	function searchboard(boardname) {
-
-		window.location.href="http://localhost:8080/search/list.jsp?boardname="+encodeURI(boardname)+"&key_word="+encodeURI("<%=key_word%>");
-	}
-
-	function search2() {
-
-		alert('aaa');
-	}
-</script>
 </html>
