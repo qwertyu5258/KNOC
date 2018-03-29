@@ -25,12 +25,6 @@
 	application.setAttribute("gNavMenuDepth4", "00");
 	/*'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''*/
 %>
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 <%
 	String key_word = etcutil.strBlockSpecialTags(etcutil.checkNull(request.getParameter("search")), "8859_1");
@@ -43,7 +37,7 @@
 
 	//ok
 
-	ArrayList al = SearchMa.getSearchList(key_word, pp.getNPage(), pp.getNPageSize());
+	ArrayList al = SearchMa.getSearchList2(key_word, pp.getNPage(), pp.getNPageSize());
 
 	System.out.println(al);
 	//test
@@ -89,37 +83,26 @@
 					<img src="/images/search/ttl_search.gif" alt="사이트 검색" />
 				</h3>
 			</div>
+			<table style="padding:1px">
+				<tr>
+					<th><img src="/images/search/btn_searchsub.png" style="width: 100%;"></th>
+					<th><img src="/images/search/btn_searchsub.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub.png" style="width: 100%" /></th>
 
-			<br>
-			<br>
-			<table>
-				<tr>
-					<th><input type="button" value="Submit"
-						class="btn btn-default" style="width: 99.5%"></th>
-					<th><input type="button" value="확인" class="btn btn-default"
-						style="width: 99.5%"></th>
-					<th><input type="button" value="확인" class="btn btn-default"
-						style="width: 99.5%"></th>
-					<th><input type="button" value="확인" class="btn btn-default"
-						style="width: 99.5%"></th>
-					<th><input type="button" value="확인" class="btn btn-default"
-						style="width: 99.5%"></th>
 				</tr>
-				<tr>
-					<th><input type="button" value="확인" class="btn btn-default"
-						style="width: 99.5%"></th>
-					<th><input type="button" value="확인" class="btn btn-default"
-						style="width: 99.5%"></th>
-					<th><input type="button" value="확인" class="btn btn-default"
-						style="width: 99.5%"></th>
-					<th><input type="button" value="확인" class="btn btn-default"
-						style="width: 99.5%"></th>
-					<th><input type="button" value="확인" class="btn btn-default"
-						style="width: 99.5%"></th>
+					<tr>
+					<th><img src="/images/search/btn_searchsub3.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub3.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub3.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub3.png" style="width: 100%" /></th>
+					<th><img src="/images/search/btn_searchsub3.png" style="width: 100%" /></th>
+
 				</tr>
+
 			</table>
-
-
+	
 
 			<div id="boardsec">
 				<p align="center" class="pb20">
