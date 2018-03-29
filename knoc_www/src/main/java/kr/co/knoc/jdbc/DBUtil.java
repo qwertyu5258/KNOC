@@ -25,17 +25,19 @@ public class DBUtil {
 		Context envContext = null;
 		 
 		try {
-	//		System.out.println("Á¤»ó");
+		
 			Context ctx = new InitialContext();	 
 			//ds = (OracleDataSource) ctx.lookup( "jdbc/oracle_knoc" );
 			envContext = (Context)ctx.lookup("java:/comp/env/"); 
+		
 			ds = (DataSource)envContext.lookup("jdbc/oracle_knoc");
- 
+			
 			/*	Context initContext = new InitialContext();
 		      Context envContext = (Context) initContext.lookup("java:/comp/env");
 		     OracleDataSource ds = (OracleDataSource) envContext.lookup("jdbc/oracle_knoc");*/
 			if( ds != null ) {
 				con = ds.getConnection();
+			
 			}
 			
 			

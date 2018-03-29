@@ -11,6 +11,6 @@
     <Resource name="jdbc/oracle_knoc" auth="Container" type="javax.sql.DataSource" 
     maxActive="100" maxIdle="30" maxWait="10000" 
     username="knoc_db" password="knoc_mast" driverClassName="oracle.jdbc.driver.OracleDriver" 
-    url="jdbc:oracle:thin:@localhost:1521:knoc"/> 
+    url="jdbc:oracle:thin:@localhost:1521:xe"/> 
 
 </Context> 
